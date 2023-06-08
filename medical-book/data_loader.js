@@ -42,7 +42,7 @@ function load_data(sn) {
         '</div>' +
 
         `<div class="col-3 my-auto">${dataPoint.english}</div>` +
-        `<div class="col-4 my-auto">${dataPoint.cantonese}</div>` +
+        `<div class="col-4 my-auto">${(dataPoint.cantonese).toLowerCase()}</div>` +
         `<div class="col-3 my-auto">${dataPoint.characters}</div>` +
 
         '<div class="col-1 my-auto" scope="row">' +
