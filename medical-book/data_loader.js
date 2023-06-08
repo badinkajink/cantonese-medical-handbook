@@ -28,7 +28,7 @@ function load_data(sn) {
         var dataPoint = {
         id: sheetData[i][0],
         english: sheetData[i][1],
-        cantonese: sheetData[i][2],
+        cantonese: sheetData[i][2].toLowerCase(),
         characters: sheetData[i][3],
         audio: "Play"
         };
