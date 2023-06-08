@@ -10,6 +10,32 @@
             max-width: 100%;
             height: auto;
         }
+        .px-2 {
+          padding-left: ($spacer * .5) !important;
+          padding-right: ($spacer * .5) !important;
+        }
+        /* max-width: 768px (xs) max-width: 992px (md) */
+        @media(max-width: 992px) {
+          .container-full-and-fluid {
+              padding: 0px !important;
+        }
+        @media (max-width: 978px) {
+          .container {
+            padding:0;
+            margin:0;
+          }
+
+          body {
+            padding:0;
+          }
+
+          .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom:0;
+          }
+      }
+   }
     </style>
 
     <head>
@@ -31,21 +57,11 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/">Home<span class="sr-only"></span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/medical-book/mb-introductions.html">Introductions</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/medical-book/mb-complaints.html">Complaints</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/medical-book/mb-medications.html">Medications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/medical-book/mb-history.html">History</a>
-                </li>
+                <a class="nav-link" href="/">Home<span class="sr-only"></span></a>
+                <a class="nav-link" href="/medical-book/mb-introductions.html">Introductions</a>
+                <a class="nav-link" href="/medical-book/mb-complaints.html">Complaints</a>
+                <a class="nav-link" href="/medical-book/mb-medications.html">Medications</a>
+                <a class="nav-link" href="/medical-book/mb-history.html">History</a>
             </div>
           </div>
       
