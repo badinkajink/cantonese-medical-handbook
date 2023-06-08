@@ -28,8 +28,9 @@ function load_data(sn) {
         var dataPoint = {
         id: sheetData[i][0],
         english: sheetData[i][1],
-        cantonese: sheetData[i][2].toLowerCase(),
+        cantonese: sheetData[i][2],
         characters: sheetData[i][3],
+        see_more: sheetData[i][4],
         audio: "Play"
         };
         myData.push(dataPoint);
@@ -52,7 +53,7 @@ function load_data(sn) {
         '</div>' +
 
         `<div class="collapse accordion-collapse" id="r${dataPoint.id}" data-bs-parent=".table">` +
-        '<td colspan="5">test \n test \n test</td>' +
+        `<td colspan="5">${dataPoint.see_more}</td>` +
         '</div>'
         );
     }
