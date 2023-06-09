@@ -10,32 +10,6 @@
             max-width: 100%;
             height: auto;
         }
-        .px-2 {
-          padding-left: ($spacer * .5) !important;
-          padding-right: ($spacer * .5) !important;
-        }
-        /* max-width: 768px (xs) max-width: 992px (md) */
-        @media(max-width: 992px) {
-          .container-full-and-fluid {
-              padding: 0px !important;
-        }
-        @media (max-width: 978px) {
-          .container {
-            padding:0;
-            margin:0;
-          }
-
-          body {
-            padding:0;
-          }
-
-          .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-            margin-left: 0;
-            margin-right: 0;
-            margin-bottom:0;
-          }
-      }
-   }
     </style>
 
     <head>
@@ -47,7 +21,7 @@
         <title>Medical Book</title>
     </head>
     <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light">
-        <div class="container">
+        <div class="container-md">
           <a href="/" class="navbar-brand">Cantonese Medical Book Prototype</a>
       
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
@@ -70,7 +44,7 @@
       
     <body>
 
-    <div class="container">
+    <div class="container-md">
 
         <div class="row">
           <div class="col text-center">
