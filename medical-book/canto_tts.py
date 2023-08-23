@@ -17,7 +17,7 @@ audioOuputFile = './test.mp3'
 
 # The language of the voice that speaks.
 # speech_config.speech_synthesis_voice_name='en-US-JennyNeural'
-folder="cardiovascular_illnesses"
+folder="family_history"
 xls = pd.ExcelFile('./data.xlsx')
 df = pd.read_excel(xls, folder, skiprows=[0])
 chars = df.loc[:,"Characters"]
