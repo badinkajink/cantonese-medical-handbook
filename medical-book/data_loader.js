@@ -1,36 +1,36 @@
-function insertDictData(data) {
-    fetch('/insert_dict_data', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-    })
-    .then(response => response.text())
-    .then(responseText => {
-        console.log(responseText); // Should display 'Data inserted successfully'
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
-}
+// function insertDictData(data) {
+//     fetch('/insert_dict_data', {
+//         method: 'POST',
+//         headers: {
+//             'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify(data),
+//     })
+//     .then(response => response.text())
+//     .then(responseText => {
+//         console.log(responseText); // Should display 'Data inserted successfully'
+//     })
+//     .catch(error => {
+//         console.error('Error:', error);
+//     });
+// }
 
-function insertDictData(data) {
-    fetch('/insert_html_data', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-    })
-    .then(response => response.text())
-    .then(responseText => {
-        console.log(responseText); // Should display 'Data inserted successfully'
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
-}
+// function insertDictData(data) {
+//     fetch('/insert_html_data', {
+//         method: 'POST',
+//         headers: {
+//             'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify(data),
+//     })
+//     .then(response => response.text())
+//     .then(responseText => {
+//         console.log(responseText); // Should display 'Data inserted successfully'
+//     })
+//     .catch(error => {
+//         console.error('Error:', error);
+//     });
+// }
 
 const sheetId = "1o5w3Hqk-s7hBLSgaOdow-1h0wW2xamoJvn8STS6PZek"
 const base = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?`
@@ -123,7 +123,7 @@ function reload(sn) {
         `<td colspan="5">${dataPoint.see_more}</td>` +
         '</div>'
         );
-        insertDictData(dataPoint)
+        // insertDictData(dataPoint)
     }
 
     console.log("storing data")
