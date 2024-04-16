@@ -1,12 +1,78 @@
+function insertDictData(data) {
+    fetch('/insert_dict_data', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then(response => response.text())
+    .then(responseText => {
+        console.log(responseText); // Should display 'Data inserted successfully'
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+function insertDictData(data) {
+    fetch('/insert_html_data', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then(response => response.text())
+    .then(responseText => {
+        console.log(responseText); // Should display 'Data inserted successfully'
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+const sheetId = "1o5w3Hqk-s7hBLSgaOdow-1h0wW2xamoJvn8STS6PZek"
+const base = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?`
+// const sheetName = 'introductions'
+// const api_key = "AIzaSyBJndqCORTBY92weU2Ia7uSUqqRnP9Mx7E"
+// development API key
+const api_key = "AIzaSyBYpORJpEgNr3ZmsCMqjPSmtufx-DJX1Oo"
+
 function load_data(sn) {
-    console.log("hello")
+    console.log("Checking the 'reload' sheet...");
+    const sheetName = sn;
+    const reload_name = "reload"; // Name of the "reload" sheet
+    const url = 'https://sheets.googleapis.com/v4/spreadsheets/' +
+        sheetId + '/values/' + reload_name +
+        '?alt=json&key=' + api_key;
+
+    // Fetch the "reload" sheet data
+    ($.getJSON(url, 'callback=?')).done(function (data) {
+        const sheetData = data.values;
+        if (sheetData.length >= 1 && sheetData[0].length >= 1) {
+            const reloadValue = sheetData[0][0]; // Assuming the checkbox value is in cell A1
+
+            // Check the value of the checkbox
+            if (reloadValue === "TRUE") {
+                console.log("Checkbox value is TRUE. Proceeding with data loading.");
+                reload(sn);
+            } else {
+                console.log("Checkbox value is FALSE. Loading HTML from Flask.");
+                document.getElementById(`${sheetName}`).innerHTML = content
+            }
+        } else {
+            console.log("No data found in the 'reload' sheet.");
+            // Handle the case when there's no data in the "reload" sheet
+        }
+    });
+}
+
+function reload(sn) {
+    // console.log("hello")
     var myData = [];
 
-    const sheetId = "1o5w3Hqk-s7hBLSgaOdow-1h0wW2xamoJvn8STS6PZek"
-    const base = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?`
-    // const sheetName = 'introductions'
     const sheetName = sn
-    const api_key = "AIzaSyBJndqCORTBY92weU2Ia7uSUqqRnP9Mx7E"
     var url = 'https://sheets.googleapis.com/v4/spreadsheets/' +
             sheetId + '/values/' + sheetName +
             '?alt=json&key=' + api_key;
@@ -26,6 +92,7 @@ function load_data(sn) {
     for (i = 2; i < sheetData.length; i++) {
         bgcolor = i%2 == 0 ? "#ffffff" : "#f0f0f0"
         var dataPoint = {
+        category: sheetName,
         id: sheetData[i][0],
         english: sheetData[i][1],
         cantonese: sheetData[i][2],
@@ -56,7 +123,13 @@ function load_data(sn) {
         `<td colspan="5">${dataPoint.see_more}</td>` +
         '</div>'
         );
+        insertDictData(dataPoint)
     }
+
+    console.log("storing data")
+    // if new data is loaded, rewrite stored HTML
+    var blob = new Blob([document.getElementById(`${sheetName}`).innerHTML], {type: 'text/html'});
+    var html_data = {}
 
     });
 }
