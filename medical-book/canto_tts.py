@@ -17,10 +17,21 @@ audioOuputFile = './test.mp3'
 
 # The language of the voice that speaks.
 # speech_config.speech_synthesis_voice_name='en-US-JennyNeural'
-folder="family_history"
+
+print("Enter the worksheet name to generate audio for>")
+text = input()
+
+folder=text
 xls = pd.ExcelFile('./data.xlsx')
-df = pd.read_excel(xls, folder, skiprows=[0])
-chars = df.loc[:,"Characters"]
+try:
+    df = pd.read_excel(xls, folder, skiprows=[0])
+    chars = df.loc[:,"Characters"]
+except Exception as e:
+    print(e)
+    print(f"Either worksheet '{text}' not found in 'data.xlsx' or there is a formatting error in the worksheet.")
+    print("Look at example worksheets like 'anatomy' or 'introductions' for reference.")
+    exit()
+
 path=f"./{folder}_audio/"
 if not os.path.exists(path):
     os.makedirs(path)
