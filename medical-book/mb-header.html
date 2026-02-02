@@ -64,7 +64,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i>See More</i>
+              <i>More Sections</i>
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="/medical-book/mb-anatomy.html">Anatomy</a></li>
@@ -72,16 +72,141 @@
               <li><a class="dropdown-item" href="/medical-book/mb-dermatology.html">Dermatology</a></li>
               <li><a class="dropdown-item" href="/medical-book/mb-endocrinology.html">Endocrinology</a></li>
               <li><a class="dropdown-item" href="/medical-book/mb-gastroenterology.html">Gastroenterology</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Placeholder</a></li>
             </ul>
           </li>
 
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="medical term or phrase" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class="d-flex" id="navbarSearchForm" onsubmit="return handleSearch(event)">
+          <input class="form-control me-2" type="search" id="navbarSearchInput" placeholder="Search phrases..." aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">🔍 Search</button>
+          <button class="btn btn-outline-secondary ms-2" type="button" id="darkModeToggle" onclick="toggleDarkMode()" title="Toggle Dark Mode">🌙</button>
         </form>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    // Handle search form submission
+    function handleSearch(event) {
+        event.preventDefault();
+        const query = document.getElementById('navbarSearchInput').value;
+        if (query.trim()) {
+            window.location.href = `/medical-book/mb-search.html?q=${encodeURIComponent(query)}`;
+        }
+        return false;
+    }
+
+    // Dark mode functionality
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        const isDark = document.body.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+        updateDarkModeButton();
+    }
+
+    function updateDarkModeButton() {
+        const btn = document.getElementById('darkModeToggle');
+        if (btn) {
+            btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        }
+    }
+
+    // Load dark mode preference
+    if (localStorage.getItem('darkMode') === 'enabled') {
+        document.body.classList.add('dark-mode');
+    }
+
+    // Update button on page load
+    document.addEventListener('DOMContentLoaded', updateDarkModeButton);
+    setTimeout(updateDarkModeButton, 100);
+  </script>
+
+  <style>
+    /* Dark mode styles */
+    body.dark-mode {
+        background-color: #1a202c;
+        color: #e2e8f0;
+    }
+
+    body.dark-mode .navbar {
+        background-color: #2d3748 !important;
+    }
+
+    body.dark-mode .navbar-light .navbar-brand,
+    body.dark-mode .navbar-light .navbar-nav .nav-link {
+        color: #e2e8f0 !important;
+    }
+
+    body.dark-mode .navbar-light .navbar-nav .nav-link:hover {
+        color: #a0aec0 !important;
+    }
+
+    body.dark-mode .dropdown-menu {
+        background-color: #2d3748;
+        border-color: #4a5568;
+    }
+
+    body.dark-mode .dropdown-item {
+        color: #e2e8f0;
+    }
+
+    body.dark-mode .dropdown-item:hover {
+        background-color: #4a5568;
+        color: #ffffff;
+    }
+
+    body.dark-mode .form-control {
+        background-color: #4a5568;
+        border-color: #718096;
+        color: #e2e8f0;
+    }
+
+    body.dark-mode .form-control::placeholder {
+        color: #a0aec0;
+    }
+
+    body.dark-mode .btn-outline-primary {
+        color: #63b3ed;
+        border-color: #63b3ed;
+    }
+
+    body.dark-mode .btn-outline-primary:hover {
+        background-color: #63b3ed;
+        color: #1a202c;
+    }
+
+    body.dark-mode .btn-outline-secondary {
+        color: #cbd5e0;
+        border-color: #cbd5e0;
+    }
+
+    body.dark-mode .btn-outline-secondary:hover {
+        background-color: #cbd5e0;
+        color: #1a202c;
+    }
+
+    body.dark-mode .row {
+        color: #1a202c;
+    }
+
+    body.dark-mode .data-row {
+        background-color: #f7fafc !important;
+    }
+
+    body.dark-mode .data-row:nth-child(even) {
+        background-color: #edf2f7 !important;
+    }
+
+    body.dark-mode .data-header {
+        background-color: #e2e8f0 !important;
+        color: #1a202c !important;
+    }
+
+    #darkModeToggle {
+        font-size: 1.2rem;
+        padding: 0.375rem 0.75rem;
+    }
+  </style>
       </div>
     </div>
   </nav>

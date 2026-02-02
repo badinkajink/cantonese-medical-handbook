@@ -1,77 +1,386 @@
-<html>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="search.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantonese Medical Handbook - Learn Medical Cantonese</title>
+    <meta name="description" content="A comprehensive guide to medical Cantonese phrases with audio pronunciation and English translations.">
 
-    <script> 
-      $(function(){
-        $("#includedContent").load("medical-book/mb-header.html"); 
-      });
-    </script> 
-  
-    <div id="includedContent"></div>   
-      
-    <body>
-    <div class="container">
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-introductions.html">Introductions</a>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0 3rem 0;
+            margin-bottom: 3rem;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+        }
+
+        .search-box-hero {
+            max-width: 600px;
+            margin: 0 auto 1.5rem auto;
+        }
+
+        .search-box-hero input {
+            font-size: 1.1rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .search-box-hero button {
+            border-radius: 50px;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            border: 2px solid white;
+            background: transparent;
+            color: white;
+            transition: all 0.3s;
+        }
+
+        .search-box-hero button:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: #2d3748;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .category-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .category-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2d3748;
+        }
+
+        .category-description {
+            color: #718096;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .category-count {
+            display: inline-block;
+            background: #edf2f7;
+            color: #4a5568;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .feature-section {
+            background: #f7fafc;
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+
+        .feature-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2d3748;
+        }
+
+        .feature-text {
+            color: #718096;
+        }
+
+        footer {
+            background: #2d3748;
+            color: #cbd5e0;
+            padding: 2rem 0;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        /* Dark mode compatibility */
+        body.dark-mode {
+            background-color: #1a202c;
+        }
+
+        body.dark-mode .section-title,
+        body.dark-mode .category-name,
+        body.dark-mode .feature-title {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .category-card {
+            background: #2d3748;
+            border-color: #4a5568;
+        }
+
+        body.dark-mode .category-card:hover {
+            background: #374151;
+        }
+
+        body.dark-mode .category-description,
+        body.dark-mode .feature-text {
+            color: #cbd5e0;
+        }
+
+        body.dark-mode .feature-section {
+            background: #2d3748;
+        }
+
+        body.dark-mode .category-count {
+            background: #4a5568;
+            color: #e2e8f0;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Load navbar -->
+    <div id="includedContent"></div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="hero-title text-center">Cantonese Medical Handbook</h1>
+            <p class="hero-subtitle text-center">Learn essential medical phrases in Cantonese with audio pronunciation</p>
+
+            <div class="search-box-hero">
+                <form class="d-flex" onsubmit="return searchFromHome(event)">
+                    <input type="search" id="homeSearchInput" class="form-control me-2" placeholder="Search medical terms and phrases..." aria-label="Search">
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+
+            <p class="text-center" style="opacity: 0.9;">
+                235 phrases across 14 medical categories
+            </p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-complaints.html">Complaints</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-medications.html">Medications</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-history.html">History</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-prior-illnesses.html">Prior Illnesses</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-cardiology.html">Cardiology</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-anatomy.html">Anatomy</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-emergency.html">Emergency</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-dermatology.html">Dermatology</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-Endocrinology.html">Endocrinology</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center" style="font-size:2em; ">
-          <a href="/medical-book/mb-gastroenterology.html">Gastroenterology</a>
-        </div>
-      </div>
     </div>
-    </body>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2 class="section-title">Browse by Category</h2>
+
+        <div class="category-grid">
+            <a href="/medical-book/mb-introductions.html" class="category-card">
+                <span class="category-icon">👋</span>
+                <div class="category-name">Introductions</div>
+                <div class="category-description">Basic greetings and introductory phrases</div>
+                <span class="category-count">23 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-complaints.html" class="category-card">
+                <span class="category-icon">😟</span>
+                <div class="category-name">Complaints</div>
+                <div class="category-description">Common patient complaints and symptoms</div>
+                <span class="category-count">16 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-medications.html" class="category-card">
+                <span class="category-icon">💊</span>
+                <div class="category-name">Medications</div>
+                <div class="category-description">Medicine names and allergies</div>
+                <span class="category-count">16 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-history.html" class="category-card">
+                <span class="category-icon">📋</span>
+                <div class="category-name">History</div>
+                <div class="category-description">Medical history and family history questions</div>
+                <span class="category-count">24 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-prior-illnesses.html" class="category-card">
+                <span class="category-icon">🏥</span>
+                <div class="category-name">Prior Illnesses</div>
+                <div class="category-description">Previous medical conditions</div>
+                <span class="category-count">23 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-cardiology.html" class="category-card">
+                <span class="category-icon">❤️</span>
+                <div class="category-name">Cardiology</div>
+                <div class="category-description">Heart and cardiovascular terms</div>
+                <span class="category-count">19 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-anatomy.html" class="category-card">
+                <span class="category-icon">🫁</span>
+                <div class="category-name">Anatomy</div>
+                <div class="category-description">Body parts and anatomical terms</div>
+                <span class="category-count">36 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-emergency.html" class="category-card">
+                <span class="category-icon">🚨</span>
+                <div class="category-name">Emergency</div>
+                <div class="category-description">Urgent care and emergency procedures</div>
+                <span class="category-count">19 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-dermatology.html" class="category-card">
+                <span class="category-icon">🩹</span>
+                <div class="category-name">Dermatology</div>
+                <div class="category-description">Skin conditions and terminology</div>
+                <span class="category-count">16 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-endocrinology.html" class="category-card">
+                <span class="category-icon">⚕️</span>
+                <div class="category-name">Endocrinology</div>
+                <div class="category-description">Endocrine system and hormones</div>
+                <span class="category-count">12 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-gastroenterology.html" class="category-card">
+                <span class="category-icon">🫃</span>
+                <div class="category-name">Gastroenterology</div>
+                <div class="category-description">Digestive system and GI terms</div>
+                <span class="category-count">31 phrases</span>
+            </a>
+
+            <a href="/medical-book/mb-search.html" class="category-card" style="border: 2px solid #667eea;">
+                <span class="category-icon">🔍</span>
+                <div class="category-name">Search All</div>
+                <div class="category-description">Search across all categories</div>
+                <span class="category-count">235 phrases</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature-item">
+                    <div class="feature-icon">🔊</div>
+                    <div class="feature-title">Audio Pronunciation</div>
+                    <div class="feature-text">Listen to native Cantonese pronunciation for every phrase</div>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <div class="feature-icon">🌐</div>
+                    <div class="feature-title">Works Offline</div>
+                    <div class="feature-text">All data is cached for offline access</div>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-title">Fast Search</div>
+                    <div class="feature-text">Instant search across all categories and phrases</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Cantonese Medical Handbook. An open-source educational resource.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">
+                Helping healthcare providers communicate better with Cantonese-speaking patients
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Load navbar -->
+    <script>
+        $(function() {
+            $("#includedContent").load("medical-book/mb-header.html");
+        });
+
+        function searchFromHome(event) {
+            event.preventDefault();
+            const query = document.getElementById('homeSearchInput').value;
+            if (query.trim()) {
+                window.location.href = `/medical-book/mb-search.html?q=${encodeURIComponent(query)}`;
+            }
+            return false;
+        }
+    </script>
+</body>
 </html>

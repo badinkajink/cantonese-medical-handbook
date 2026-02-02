@@ -1,0 +1,27 @@
+{
+  "name": "cantonese-medical-handbook",
+  "version": "2.0.0",
+  "description": "A comprehensive guide to medical Cantonese phrases with audio pronunciation",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build_data.js",
+    "update-pages": "node update_pages.js",
+    "serve": "npx http-server -p 8000 -c-1",
+    "dev": "npm run serve"
+  },
+  "keywords": [
+    "cantonese",
+    "medical",
+    "healthcare",
+    "translation",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cantonese-medical-handbook"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

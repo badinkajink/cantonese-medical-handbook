@@ -1,0 +1,231 @@
+/**
+ * Common Styles for Cantonese Medical Handbook
+ * Applied across all section pages for consistent UX
+ */
+
+/* Base improvements */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Better table row styling */
+.data-row {
+    transition: background-color 0.2s ease;
+}
+
+.data-row:hover {
+    background-color: #e6f2ff !important;
+    cursor: default;
+}
+
+/* Improved buttons */
+.btn-primary {
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Better focus states for accessibility */
+button:focus,
+input:focus,
+a:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* Improved collapse content */
+.collapse {
+    margin-top: 0.5rem;
+}
+
+.collapse .bg-light {
+    border-left: 3px solid #667eea;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .row > div {
+        font-size: 0.9rem;
+    }
+
+    .data-header {
+        font-size: 0.85rem;
+    }
+
+    .btn-sm {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    /* Stack columns on mobile for better readability */
+    .data-row .col-3,
+    .data-row .col-4 {
+        min-width: 100px;
+    }
+}
+
+/* Loading states */
+.loading {
+    text-align: center;
+    padding: 3rem;
+    color: #718096;
+}
+
+/* Error states */
+.alert {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Page header styling */
+.page-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.page-header p {
+    margin: 0.5rem 0 0 0;
+    opacity: 0.95;
+}
+
+/* Keyboard shortcut hints */
+.keyboard-hint {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    z-index: 1000;
+    display: none;
+    animation: fadeIn 0.3s;
+}
+
+.keyboard-hint.show {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.keyboard-hint kbd {
+    background: #4a5568;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: monospace;
+    margin: 0 0.2rem;
+}
+
+/* Character improvements */
+.search-characters {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .btn,
+    .keyboard-hint {
+        display: none !important;
+    }
+
+    .data-row {
+        page-break-inside: avoid;
+    }
+
+    body {
+        background: white !important;
+        color: black !important;
+    }
+}
+
+/* Accessibility improvements */
+.visually-hidden-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    clip: unset;
+}
+
+/* Skip to content link */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #667eea;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Better spacing */
+.container-md {
+    margin-bottom: 3rem;
+}
+
+/* Status messages */
+.status-message {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1050;
+    animation: slideInRight 0.3s;
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.status-message.success {
+    background: #48bb78;
+    color: white;
+}
+
+.status-message.error {
+    background: #f56565;
+    color: white;
+}
+
+.status-message.info {
+    background: #4299e1;
+    color: white;
+}
