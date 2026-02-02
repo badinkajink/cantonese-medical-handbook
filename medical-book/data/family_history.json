@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "english": "Are your parents alive?",
+    "cantonese": "Nei5 ge3 fu6 mou5 gin6 zoi6 maa3?",
+    "characters": "你嘅父母健在嗎？",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "How old are they?",
+    "cantonese": "Keoi5 dei6 gei2 seoi3 ?",
+    "characters": "佢哋幾歲？",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "What was their age at their time of death? \n",
+    "cantonese": "Keoi5 heoi3 sai3 ge3 si4 hau6 gei2 seoi3? \n",
+    "characters": "佢去世嘅時候幾歲？\n",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "What was the cause of death?",
+    "cantonese": "Keoi5 ge3 sei4 jan1 hai6 me1?",
+    "characters": "佢嘅死因係咩?",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "Do you have any siblings?",
+    "cantonese": "Nei5 jau5 mou5 hing1 dai6 zi2 mui6?",
+    "characters": "你有冇兄弟姊妹？",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "How many?",
+    "cantonese": "Jau5 gei2 do1 gwo3?",
+    "characters": "有幾多個？",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "Are they in good health?",
+    "cantonese": "Keoi5 dei6 ge3 gin6 hong1 hou2 m4 hou2?",
+    "characters": "佢哋嘅健康好唔好？",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "Have any of your family members ever had __?",
+    "cantonese": "Nei5 gaa1 jan4 jau5 mou5 dak1 gwo3 [DISEASE/SYMPTOMS] ?",
+    "characters": "你家人有冇得過___？",
+    "see_more": ""
+  },
+  {
+    "id": "9",
+    "english": "Has there been any tuberculosis among your immediate family members?",
+    "cantonese": "Nei5 ge3 zik6 hai6 can1 suk6 jau5 mou5 dak1 gwo3 fai3 git3 hat6?",
+    "characters": "你嘅直系親屬有冇得過肺結核？",
+    "see_more": ""
+  }
+]

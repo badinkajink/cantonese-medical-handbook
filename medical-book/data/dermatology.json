@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "english": "Hair",
+    "cantonese": "Tau4 faat3",
+    "characters": "頭髮",
+    "see_more": "头发"
+  },
+  {
+    "id": "2",
+    "english": "Skin",
+    "cantonese": "Pei4 fu1",
+    "characters": "皮膚",
+    "see_more": "皮肤"
+  },
+  {
+    "id": "3",
+    "english": "Nails",
+    "cantonese": "Zi2 gaap3",
+    "characters": "指甲",
+    "see_more": "指甲"
+  },
+  {
+    "id": "4",
+    "english": "Do you have dry skin?",
+    "cantonese": "Nei5 jau5 mou5 gon1 sing3 pei4 fu1?",
+    "characters": "你有冇乾性皮膚？",
+    "see_more": "你有干性皮肤吗？"
+  },
+  {
+    "id": "5",
+    "english": "Do you have oily skin?",
+    "cantonese": "Nei5 jau5 mou5 jau5 sing3 pei4 fu1?",
+    "characters": "你有冇油性皮膚？",
+    "see_more": "你有油性皮肤吗？"
+  },
+  {
+    "id": "6",
+    "english": "Do you easily bruise or bleed?",
+    "cantonese": "Nei5 wui3 m4 wui3 jung4 ji6 jyu2 waak6 ze2 lau4 hyut3?",
+    "characters": "你會唔會容易瘀或者流血？",
+    "see_more": "你身体容易青肿淤血，或者流血吗？"
+  },
+  {
+    "id": "7",
+    "english": "Do you have acne?",
+    "cantonese": "Nei5 jau5 mou5 co4 cong4/ fan2 ci3?",
+    "characters": "你有冇痤瘡/粉刺？",
+    "see_more": "你有痤疮/粉刺/痘痘吗？"
+  },
+  {
+    "id": "8",
+    "english": "Have you had laser surgery before?",
+    "cantonese": "Nei5 jau5 mou5 zou6 gwo3 gik1 gwong1 sau2 seot6?",
+    "characters": "你有冇做過激光手術？",
+    "see_more": "你做过激光手术吗？"
+  },
+  {
+    "id": "9",
+    "english": "Do you tan often?\nDo you wear sunscreen?",
+    "cantonese": "Nei5 hai6 m4 hai6 si4 si4 saai3 taai3 joeng4?\nNei5 caa4 m4 caa4 fong4 saai3?",
+    "characters": "你係唔係時時曬太陽？\n你搽唔搽防曬？",
+    "see_more": "你会容易晒伤/晒黑吗？会摸防晒霜吗？"
+  },
+  {
+    "id": "10",
+    "english": "Any color changes/ discoloration on your skin?",
+    "cantonese": "Pei4 fu1 jau5 mou5 bin3 sik1?",
+    "characters": "皮膚有冇變色？",
+    "see_more": "你的皮肤会不会有颜色变化？"
+  },
+  {
+    "id": "11",
+    "english": "Any rashes?",
+    "cantonese": "Jau5 mou5 can2?",
+    "characters": "有冇疹？",
+    "see_more": "有任何疹子吗？"
+  },
+  {
+    "id": "12",
+    "english": "Is your skin itchy?",
+    "cantonese": "Pei4 fu1 han4 m4 han4?",
+    "characters": "皮膚痕唔痕？",
+    "see_more": "皮肤会不会发痒？"
+  },
+  {
+    "id": "13",
+    "english": "Eczema",
+    "cantonese": "Sap1 can2",
+    "characters": "濕疹",
+    "see_more": "湿疹"
+  },
+  {
+    "id": "14",
+    "english": "Melanoma",
+    "cantonese": "Hak1 sou3 lau4",
+    "characters": "黑素瘤",
+    "see_more": "黑素瘤"
+  },
+  {
+    "id": "15",
+    "english": "Psoriasis",
+    "cantonese": "Gon1 sin2",
+    "characters": "乾癬",
+    "see_more": "牛皮癣；银屑癣"
+  },
+  {
+    "id": "Common conditions (beng6)",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  }
+]

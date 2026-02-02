@@ -1,0 +1,21 @@
+{
+  "buildDate": "2026-02-02T01:47:21.534Z",
+  "sections": [
+    "introductions",
+    "complaints",
+    "medications",
+    "allergies",
+    "history_questions",
+    "family_history",
+    "prior_illnesses",
+    "cardiology",
+    "cardiovascular_illnesses",
+    "anatomy",
+    "emergency",
+    "dermatology",
+    "endocrinology",
+    "gastroenterology"
+  ],
+  "totalEntries": 235,
+  "errors": []
+}

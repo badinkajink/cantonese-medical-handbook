@@ -1,0 +1,163 @@
+[
+  {
+    "id": "1",
+    "english": "Good morning",
+    "cantonese": "zou2 san4",
+    "characters": "早晨",
+    "see_more": "hello world"
+  },
+  {
+    "id": "2",
+    "english": "Hello/ how are you?",
+    "cantonese": "nei5 hou2 maa1?",
+    "characters": "你好嗎",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Sir <br> Madam <br> Miss",
+    "cantonese": "sin1 saang1 <br> \ntaai3 taai2 <br>\nsiu2 ze2",
+    "characters": "先生 <br>\n太太 <br>\n小姐",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "I am doctor __",
+    "cantonese": "ngo5 hai6 __ ji1 sang1",
+    "characters": "我係___醫生",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "I am going to ask you some pertinent questions",
+    "cantonese": "ngo5 ji4 gaa1 man6 nei5 jat1 di1 zung6 jiu3 ge3 man6 tai4",
+    "characters": "我而家問你一啲重要嘅問題",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Name?",
+    "cantonese": "meng2?",
+    "characters": "名？",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "How old are you?",
+    "cantonese": "nei5 gei2 seoi3",
+    "characters": "你幾歲？",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "What is your date of birth?",
+    "cantonese": "ceot1 sang1 jat6 kei4",
+    "characters": "出生日期？",
+    "see_more": ""
+  },
+  {
+    "id": "9",
+    "english": "What insurance do you have?",
+    "cantonese": "nei5 jau5 me1 bou2 him2 aa3?",
+    "characters": "你有咩保險？",
+    "see_more": ""
+  },
+  {
+    "id": "10",
+    "english": "Please/ thank you (service)",
+    "cantonese": "m4 goi1",
+    "characters": "唔該",
+    "see_more": ""
+  },
+  {
+    "id": "11",
+    "english": "Thank you",
+    "cantonese": "do1 ze6",
+    "characters": "多謝",
+    "see_more": ""
+  },
+  {
+    "id": "12",
+    "english": "You’re welcome",
+    "cantonese": "m4 sai2 m4 goi1 \n",
+    "characters": "唔使唔該\n",
+    "see_more": ""
+  },
+  {
+    "id": "13",
+    "english": "You’re welcome",
+    "cantonese": "m4 sai2 haak3 hei3",
+    "characters": "唔使客氣",
+    "see_more": ""
+  },
+  {
+    "id": "14",
+    "english": "I don’t know",
+    "cantonese": "ngo5 m4 zi1 dou3",
+    "characters": "我唔知道",
+    "see_more": ""
+  },
+  {
+    "id": "15",
+    "english": "Please sign here to grant permission",
+    "cantonese": "nei5 tung4 ji3 zau6 hai2 ni1 dou6 cim1 meng2",
+    "characters": "你同意就喺呢度簽名",
+    "see_more": ""
+  },
+  {
+    "id": "16",
+    "english": "\nDay\n",
+    "cantonese": "\njat6\n",
+    "characters": "\n日\n",
+    "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/17.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Today <br>\nTomorrow <br>\nYesterday</div><div class=\"col-4 my-auto\">gam1 jat6 <br>\nting1 jat6  <br>\nkam4 jat6</div><div class=\"col-3 my-auto\">今日 <br>\n聽日 <br>\n琴日</div><div class=\"col-1\"></div></div>"
+  },
+  {
+    "id": "17",
+    "english": "Today <br>\nTomorrow <br>\nYesterday",
+    "cantonese": "gam1 jat6 <br>\nting1 jat6  <br>\nkam4 jat6",
+    "characters": "今日 <br>\n聽日 <br>\n琴日",
+    "see_more": ""
+  },
+  {
+    "id": "18",
+    "english": "Week",
+    "cantonese": "sing1 kei4 <br>\nlai5 baai3",
+    "characters": "星期 <br>\n禮拜",
+    "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/19.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Last week <br>\nThis week <br>\nNext week</div><div class=\"col-4 my-auto\">soeng6 go3 sing1 kei4 <br>\ngam1 go3 sing1 kei4 <br> \nhaa6 go3 sing1 kei4</div><div class=\"col-3 my-auto\">上個星期 <br>\n今個星期 <br>\n下個星期</div><div class=\"col-1\"></div></div>"
+  },
+  {
+    "id": "19",
+    "english": "Last week <br>\nThis week <br>\nNext week",
+    "cantonese": "soeng6 go3 sing1 kei4 <br>\ngam1 go3 sing1 kei4 <br> \nhaa6 go3 sing1 kei4",
+    "characters": "上個星期 <br>\n今個星期 <br>\n下個星期",
+    "see_more": ""
+  },
+  {
+    "id": "20",
+    "english": "Month ",
+    "cantonese": "jyut6",
+    "characters": "月",
+    "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/19.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Last month <br>\nThis month <br>\nNext month</div><div class=\"col-4 my-auto\">soeng6 go3 jyut6 <br>\ngam1 go3 jyut6 <br> \nhaa6 go3 jyut6</div><div class=\"col-3 my-auto\">上個月 <br>\n今個月 <br>\n下個月</div><div class=\"col-1\"></div></div>"
+  },
+  {
+    "id": "21",
+    "english": "Last month <br>\nThis month <br>\nNext month",
+    "cantonese": "soeng6 go3 jyut6 <br>\ngam1 go3 jyut6 <br>\nhaa6 go3 jyut6",
+    "characters": "上個月<br>\n今個月<br>\n下個月",
+    "see_more": ""
+  },
+  {
+    "id": "22",
+    "english": "Year",
+    "cantonese": "nin4",
+    "characters": "年",
+    "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/19.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Last year <br>\nThis year <br>\nNext year</div><div class=\"col-4 my-auto\">soeng6 go3 nin2 <br>\ngam1 go3 nin2<br> \nhaa6 go3 nin2</div><div class=\"col-3 my-auto\">上年 <br>\n今年 <br>\n下年</div><div class=\"col-1\"></div></div>"
+  },
+  {
+    "id": "23",
+    "english": "Last year<br>\nThis year<br>\nNext year",
+    "cantonese": "soeng6 nin2<br>\ngam1 nin2<br>\nhaa6 nin2",
+    "characters": "上年<br>\n今年<br>\n下年",
+    "see_more": ""
+  }
+]

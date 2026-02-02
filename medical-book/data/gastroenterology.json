@@ -1,0 +1,219 @@
+[
+  {
+    "id": "1",
+    "english": "Abdomen",
+    "cantonese": "Tou5",
+    "characters": "肚",
+    "see_more": "腹部"
+  },
+  {
+    "id": "2",
+    "english": "Appendix",
+    "cantonese": "Laan4 mei5/ maang4 coeng2 *",
+    "characters": "闌尾盲腸",
+    "see_more": "阑尾"
+  },
+  {
+    "id": "3",
+    "english": "Gallbladder",
+    "cantonese": "Daam2",
+    "characters": "膽",
+    "see_more": "胆"
+  },
+  {
+    "id": "4",
+    "english": "Large intestine",
+    "cantonese": "Daai6 coeng2",
+    "characters": "大腸",
+    "see_more": "大肠"
+  },
+  {
+    "id": "5",
+    "english": "Liver",
+    "cantonese": "Gon1",
+    "characters": "肝",
+    "see_more": "肝脏"
+  },
+  {
+    "id": "6",
+    "english": "Pancreas",
+    "cantonese": "Ji4 zong6",
+    "characters": "胰臟",
+    "see_more": "胰腺"
+  },
+  {
+    "id": "7",
+    "english": "Small intestine",
+    "cantonese": "Siu2 coeng2",
+    "characters": "小腸",
+    "see_more": "小肠"
+  },
+  {
+    "id": "8",
+    "english": "Spleen",
+    "cantonese": "Pei4 wai6",
+    "characters": "脾胃",
+    "see_more": "脾脏"
+  },
+  {
+    "id": "9",
+    "english": "Stomach",
+    "cantonese": "Wai6",
+    "characters": "胃",
+    "see_more": "胃"
+  },
+  {
+    "id": "10",
+    "english": "Any problems with your appetite? Any changes?",
+    "cantonese": "Nei5 sik6 je5 jau5 mou5 man6 tai4? Jau5 mou5 goi2 bin3?",
+    "characters": "你食嘢有冇問題？有冇改變？",
+    "see_more": "你的食欲怎么样？有没有变化？"
+  },
+  {
+    "id": "11",
+    "english": "Any vomiting?\nWhat color is the vomit? Are you vomiting blood?",
+    "cantonese": "Jau5 mou4 au2?\nAu2 tau4 mat1 me1 ngaan4 sik1? Jau5 mou5 au2 hyut3?",
+    "characters": "有冇嘔？嘔吐物咩顏色？有冇嘔血？",
+    "see_more": "会不会呕吐？呕吐物的颜色是什么？会呕血吗？"
+  },
+  {
+    "id": "12",
+    "english": "Any blood in your stool?\nIs it very dark? Is it bright red?",
+    "cantonese": "Daai6 bin6 jau5 mou5 hyut3?\nHai6 m4 hai6 sam1 sik1? Hai6 m4 hai6 sin1 hung4 sik1?",
+    "characters": "大便有冇血？係唔係深色？係唔係鮮紅色？",
+    "see_more": "大便中有没有血？颜色很深吗？是鲜红色吗？"
+  },
+  {
+    "id": "13",
+    "english": "Abdominal/ Stomach Pain",
+    "cantonese": "tou5/ wai6 tung3",
+    "characters": "肚/胃痛",
+    "see_more": "肚子/胃疼"
+  },
+  {
+    "id": "14",
+    "english": "Black stool",
+    "cantonese": " Haak1 sik1 daai6 bin6",
+    "characters": "黑色大便",
+    "see_more": "黑色大便"
+  },
+  {
+    "id": "15",
+    "english": "Constipation",
+    "cantonese": "Bin6 bei3",
+    "characters": "便秘",
+    "see_more": "便秘"
+  },
+  {
+    "id": "16",
+    "english": "Diarrhea",
+    "cantonese": "Tou5 se3",
+    "characters": "肚瀉",
+    "see_more": "腹泻"
+  },
+  {
+    "id": "17",
+    "english": "Heartburn",
+    "cantonese": "Wai6 coek3 jit6",
+    "characters": "胃灼熱",
+    "see_more": "心痛/胃灼热"
+  },
+  {
+    "id": "18",
+    "english": "Hemorrhoids",
+    "cantonese": "Zi6 cong1",
+    "characters": "痔瘡",
+    "see_more": "痔疮"
+  },
+  {
+    "id": "19",
+    "english": "Jaundice (yellowing of the skin)",
+    "cantonese": "Wong4 daam2",
+    "characters": "黃膽",
+    "see_more": "黄疸"
+  },
+  {
+    "id": "20",
+    "english": "Light colored stool",
+    "cantonese": "Daai6 bin6 cin2 sik1",
+    "characters": "淺色大便",
+    "see_more": "浅色大便"
+  },
+  {
+    "id": "21",
+    "english": "Nausea",
+    "cantonese": "au2 sam1/ soeng2 au2",
+    "characters": "嘔心/想嘔",
+    "see_more": "恶心感"
+  },
+  {
+    "id": "22",
+    "english": "Parasites",
+    "cantonese": "Gei3 sang1 cung3",
+    "characters": "寄生蟲",
+    "see_more": "寄生虫"
+  },
+  {
+    "id": "23",
+    "english": "Acid Reflux",
+    "cantonese": "Faan2 syun1",
+    "characters": "返酸",
+    "see_more": "发酸"
+  },
+  {
+    "id": "24",
+    "english": "Appendicitis",
+    "cantonese": "Laan4 mei5 jim4",
+    "characters": "闌尾炎",
+    "see_more": "阑尾炎"
+  },
+  {
+    "id": "25",
+    "english": "Gallstones",
+    "cantonese": "Daam2 sek6",
+    "characters": "膽石",
+    "see_more": "胆结石"
+  },
+  {
+    "id": "26",
+    "english": "Gallbladder disease",
+    "cantonese": "Daam2 nong4 beng6",
+    "characters": "膽囊病",
+    "see_more": "胆囊病"
+  },
+  {
+    "id": "27",
+    "english": "Gastroenteritis",
+    "cantonese": "Coeng4 wai6 jim4",
+    "characters": "腸胃炎",
+    "see_more": "肠胃炎"
+  },
+  {
+    "id": "28",
+    "english": "Hepatitis (A/B/C)",
+    "cantonese": "Gon1 jim4",
+    "characters": "肝炎",
+    "see_more": "肝炎"
+  },
+  {
+    "id": "29",
+    "english": "Inflammatory Bowel Disease",
+    "cantonese": "Jim4 sing3 coeng4 dou6 zat6 beng6",
+    "characters": "炎性腸道疾病",
+    "see_more": "炎症性肠病"
+  },
+  {
+    "id": "30",
+    "english": "Pancreatitis",
+    "cantonese": "Ji4 sin3 jim4",
+    "characters": "胰腺炎",
+    "see_more": "胰腺炎"
+  },
+  {
+    "id": "31",
+    "english": "Ulcer",
+    "cantonese": "Kui2 joeng4",
+    "characters": "潰瘍",
+    "see_more": "溃疡"
+  }
+]

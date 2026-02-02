@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "english": "Liver",
+    "cantonese": "Gon1",
+    "characters": "肝",
+    "see_more": "肝"
+  },
+  {
+    "id": "2",
+    "english": "Lymph",
+    "cantonese": "Lam4 baa1 jik6",
+    "characters": "淋巴液",
+    "see_more": "淋巴/淋巴液"
+  },
+  {
+    "id": "3",
+    "english": "Lymph nodes",
+    "cantonese": "Lam4 baa1",
+    "characters": "淋巴",
+    "see_more": "淋巴结"
+  },
+  {
+    "id": "4",
+    "english": "Thyroid",
+    "cantonese": "Gaap3 zong6 sin3",
+    "characters": "甲狀腺",
+    "see_more": "甲状腺"
+  },
+  {
+    "id": "5",
+    "english": "Do you prefer hotter or colder room temperatures?",
+    "cantonese": "Nei5 bei2 gaau3 zung1 jit3 di1 ding6 hai6 laang5 di1 ge3 sat1 wan1?",
+    "characters": "你比較中意熱\n啲定係冷啲嘅\n室温？",
+    "see_more": "你更喜欢热一点还是凉一点的室内温度？"
+  },
+  {
+    "id": "6",
+    "english": "Do you always feel cold or hot?",
+    "cantonese": "Nei5 wui3 m4 wui3 si4 si4 gam2 gok3 jit6 waak6 ze2 dung3?",
+    "characters": "你會唔會時時\n感覺熱或者\n凍？",
+    "see_more": "你会不会经常感觉冷或者热？"
+  },
+  {
+    "id": "7",
+    "english": "Do you feel thirsty often?",
+    "cantonese": "Nei5 wui3 m4 wui3 si4 si4 hau2 hot3?",
+    "characters": "你會唔會時時\n口渴？",
+    "see_more": "你会不会经常口渴？"
+  },
+  {
+    "id": "8",
+    "english": "Any weight changes?",
+    "cantonese": "Jau5 mou5 tai2 cung5 bin3 faa3?",
+    "characters": "有冇體重變\n化？",
+    "see_more": "有任何体重变化吗？"
+  },
+  {
+    "id": "9",
+    "english": "Do you experience frequent fatigue?",
+    "cantonese": "Nei5 wui3 m4 wui3 si4 si4 pei4 lou4?",
+    "characters": "你會唔會時時\n疲勞？",
+    "see_more": "你会不会经常感到疲劳？"
+  },
+  {
+    "id": "10",
+    "english": "Do you have a loss of appetite?",
+    "cantonese": "Wui3 m4 wui3 sik6 juk6 bat1 zan3/ m4 hoi1 wai6?",
+    "characters": "會唔會食慾不\n振/唔開胃？",
+    "see_more": "你会不会食欲不振？"
+  },
+  {
+    "id": "11",
+    "english": "Diabetes",
+    "cantonese": "Tong4 niu6 beng6",
+    "characters": "糖尿病",
+    "see_more": "糖尿病"
+  },
+  {
+    "id": "12",
+    "english": "Thyroid disease",
+    "cantonese": "Gaap3 zong6 sin3 beng6",
+    "characters": "甲狀腺病",
+    "see_more": "甲狀腺病"
+  }
+]

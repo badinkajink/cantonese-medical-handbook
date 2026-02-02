@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "english": "Is your overall health in good condition?",
+    "cantonese": "Nei5 gin6 hong1 hou2 m4 hou2?",
+    "characters": "你健康好唔好？",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "Have you had any illnesses as an adult?\nWhat illness?",
+    "cantonese": "Nei5 sing4 nin4 zi1 hau6, jau5 mou5 beng6 gwo3?\nMat1 je5 beng6?",
+    "characters": "你成年之後，有冇病過？\n乜嘢病？",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Do you have a family doctor?",
+    "cantonese": "Nei5 jau5 mou5 gaa1 ting4 ji1 sang1?",
+    "characters": "你有冇家庭醫生？",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "What is their __ ? <br>\nName <br> Address <br>\nTelephone number ",
+    "cantonese": "Keoi5 ge3 __ hai6 mat1 je5? <br>\nMeng4 <br>Dei6 zi2 <br>\nDin6 waa2 hou6 maa5",
+    "characters": "佢嘅___係乜嘢？<br>\n名 <br>\n地址 <br>\n電話號碼",
+    "see_more": "**name"
+  },
+  {
+    "id": "5",
+    "english": "Have you been hospitalized before?",
+    "cantonese": "Nei5 jau5 mou5 zyu6 gwo3 ji1 jyun2?",
+    "characters": "你有冇住過醫院？",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Which hospital?",
+    "cantonese": "Bin1 jat1 gaan1 ji1 jyun2?",
+    "characters": "邊一間醫院？",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "Have you ever had any surgeries?",
+    "cantonese": "Nei5 jau5 mou5 zou6 gwo3 sau2 seot6?",
+    "characters": "你有冇做過手術？",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "Have you ever had a serious accident?",
+    "cantonese": "Nei5 jau5 mou5 faat1 sang1 gwo3 jim4 zung6 ge3 ji3 ngoi6?",
+    "characters": "你有冇發生過嚴重嘅意外？",
+    "see_more": ""
+  },
+  {
+    "id": "9",
+    "english": "Were you unconscious?",
+    "cantonese": "Nei5 jau5 mou5 bat1 sing2 jan4 si6?",
+    "characters": "你有冇不省人事？",
+    "see_more": ""
+  },
+  {
+    "id": "10",
+    "english": "For how long?",
+    "cantonese": "Gei2 noi6?",
+    "characters": "幾耐？",
+    "see_more": ""
+  },
+  {
+    "id": "11",
+    "english": "Have you had bone fractures?",
+    "cantonese": "Nei5 jau5 mou5 gwat1 zit3?",
+    "characters": "你有冇骨折？",
+    "see_more": ""
+  },
+  {
+    "id": "12",
+    "english": "Were you taken to a hospital? <br>\nWhich one?",
+    "cantonese": "Nei5 jau5 mou5 jap6 ji1 jyun2? <br>\nBin1 jat1 gaan1?",
+    "characters": "你有冇入醫院？ <br>\n邊一間？",
+    "see_more": ""
+  },
+  {
+    "id": "13",
+    "english": "Have you gotten vaccinated for __?",
+    "cantonese": "Nei5 jau5 mou5 daa2 gwo3 jik6 miu4/ zam1?",
+    "characters": "你有冇打過___疫苗／針？",
+    "see_more": ""
+  },
+  {
+    "id": "14",
+    "english": "Do you have these problems?",
+    "cantonese": "Nei5 jau5 mou5 ni1 di1 mou4 beng6/ zing3*1 zong4?",
+    "characters": "你有冇呢啲毛病／症狀？",
+    "see_more": ""
+  },
+  {
+    "id": "15",
+    "english": "Do you have  (in this part of your body)?",
+    "cantonese": "Nei5 (ge3 ( [BODY PART])) jau5 mou5 [SYMPTOM]?",
+    "characters": "你嘅___有冇___？",
+    "see_more": ""
+  }
+]

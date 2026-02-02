@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "english": "What are your problems and symptoms?",
+    "cantonese": "Nei5 jau5 mat1 je5 Man6 tai4 <br>\nzing3 zong6",
+    "characters": "你有乜嘢問題 <br> 症狀?",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "When did it start?",
+    "cantonese": "Gei2 si4 hoi1 ci2",
+    "characters": "幾時開始?",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "For how long?",
+    "cantonese": "Gei2 noi6",
+    "characters": "幾耐?",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "Do you feel pain anywhere?",
+    "cantonese": "Nei5 jau5 mou5 jam6 ho4 dei6\nfong1 gok3 dak1 tung3?",
+    "characters": "你有冇任何地方覺得疼?",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "Where does it hurt?",
+    "cantonese": "Bin1 dou6 tung3?",
+    "characters": "邊度疼?",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Where does it hurt? <br>\n Continuous or\nIntermittent?",
+    "cantonese": "Tung3 hai2 bin1 dou6? <br>\nCi4 zuk6 <br>\nDyun6 dyun6 zuk6 zuk6",
+    "characters": "痛喺邊度？ <br>\n持續定係斷斷續續？",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "Sharp pain <br>\nBurning pain <br>\nDull pain <br>\nThrobbing pain ",
+    "cantonese": "Zam1 ci3 tung3 <br>\nCoek3 jit6 tung3 <br>\nJam1 jam1 tung3 <br>\nTiu3 dung6 tung3 <br>",
+    "characters": "針刺痛? <br>\n焯熱痛? <br>\n陰陰痛？<br>跳動痛？\n",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "What makes your pain <br> Better? <br>\nWorse?",
+    "cantonese": "Jau5 mat1 je3 ling6 nei5 ge3 tung3 <br>\nHou2 di1 <br>\nWaai6 di1",
+    "characters": "有乜嘢令你嘅痛  <br>\n好啲? <br>\n壞啲?",
+    "see_more": "How to change"
+  },
+  {
+    "id": "9",
+    "english": "Does the pain go anywhere else? <br>\nWhere?",
+    "cantonese": "Tung3 wui2 m4 wui2 heoi3 dou3 kei4 taa1 dei6 fong1? <br>\nBin1 dou6?",
+    "characters": "痛會唔會去到其他地方？<br>\n邊度？",
+    "see_more": ""
+  },
+  {
+    "id": "10",
+    "english": "Have you had any pain in __?",
+    "cantonese": "Nei5 __ jau5 mou5 tung3 gwo3",
+    "characters": "你___有冇痛過？",
+    "see_more": "todo: add body parts"
+  },
+  {
+    "id": "11",
+    "english": "Have you had this before?",
+    "cantonese": "Nei5 ji5 cin4 jau5 mou5 ni1 di1 cing5 fong3?",
+    "characters": "你以前有冇呢啲情況？",
+    "see_more": ""
+  },
+  {
+    "id": "12",
+    "english": "How many times?<br>\nWhen?",
+    "cantonese": "Gei2 do1 ci3 <br>Gei2 si4",
+    "characters": "幾多次？<br>幾時？",
+    "see_more": ""
+  },
+  {
+    "id": "13",
+    "english": "On a scale from 1 to 10, what is your level of pain?",
+    "cantonese": "Jat1 zi6 sap6: nei5 tung3 ge3 cing4 dou6 hai6 mat1?",
+    "characters": "一至十：你痛嘅程度係乜？",
+    "see_more": ""
+  },
+  {
+    "id": "14",
+    "english": "Chills",
+    "cantonese": "Faat3 laang5",
+    "characters": "發冷",
+    "see_more": ""
+  },
+  {
+    "id": "15",
+    "english": "Fever",
+    "cantonese": "Faat3 siu1",
+    "characters": "發燒",
+    "see_more": ""
+  },
+  {
+    "id": "16",
+    "english": "Headache",
+    "cantonese": "Tau4 tung3",
+    "characters": "頭痛",
+    "see_more": ""
+  }
+]

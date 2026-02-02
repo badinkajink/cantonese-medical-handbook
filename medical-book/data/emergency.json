@@ -1,0 +1,135 @@
+[
+  {
+    "id": "2",
+    "english": "ambulance",
+    "cantonese": "gau3 wu6 ce1/\nbaak6 ce1",
+    "characters": "救護車/白車",
+    "see_more": "救护车"
+  },
+  {
+    "id": "3",
+    "english": "Do you need an \nambulance?",
+    "cantonese": "seoi1 m seoi1 jiu3 \ngiu3 gau3 wu6 ce1/\nbaak6 ce1?",
+    "characters": "需唔需要叫救護車/白車？",
+    "see_more": "需不需要叫救护车？"
+  },
+  {
+    "id": "4",
+    "english": "Can you hear me?",
+    "cantonese": "nei5 teng1 m4 teng1\ndou2 ngo5 gong2\nje5?",
+    "characters": "你聽唔聽到我講嘢？",
+    "see_more": "你能听到我说话吗？"
+  },
+  {
+    "id": "5",
+    "english": "Are you taking any\n medications?",
+    "cantonese": "nei5 ji4 gaa1 jau5 \nmou5 fuk6 jung6\njam6 ho4 joek6 \nmat6?",
+    "characters": "你而家有冇服用任何藥物？",
+    "see_more": "你现在有没有服用\n任何药物？"
+  },
+  {
+    "id": "6",
+    "english": "Are you allergic to\nany medications?",
+    "cantonese": "nei5 jau5 mou5\ndeoi3 jam6 ho4 \njoek6 mat6 gwo3\nman5",
+    "characters": "你有冇對任何藥物過敏？",
+    "see_more": "你有没有对任何药物\n过敏?"
+  },
+  {
+    "id": "7",
+    "english": "Do you have any\nchronic conditions?",
+    "cantonese": "nei5 jau5 mou5\n jam6 ho4 maan6\nsing3 zat6 beng6",
+    "characters": "你有冇任何慢性疾病？",
+    "see_more": "你有没有任何慢性\n疾病？"
+  },
+  {
+    "id": "8",
+    "english": "emergency room",
+    "cantonese": "gap1 zing3 sat1",
+    "characters": "急症室",
+    "see_more": "急症室"
+  },
+  {
+    "id": "9",
+    "english": "CPR",
+    "cantonese": "sam1 fai3 fuk6 sou1",
+    "characters": "心肺復甦",
+    "see_more": "心肺复苏"
+  },
+  {
+    "id": "10",
+    "english": "epinephrine",
+    "cantonese": "san6 soeng6 sin3\n sou3",
+    "characters": "腎上腺素",
+    "see_more": "肾上腺素"
+  },
+  {
+    "id": "11",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "12",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "13",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "14",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "15",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "16",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "17",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "18",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "19",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  },
+  {
+    "id": "20",
+    "english": "",
+    "cantonese": "",
+    "characters": "",
+    "see_more": ""
+  }
+]

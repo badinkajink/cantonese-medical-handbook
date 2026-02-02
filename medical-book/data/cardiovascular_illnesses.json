@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "english": "Coronary heart disease",
+    "cantonese": "Gun1 sam1 beng6",
+    "characters": "冠心病",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "Heart disease",
+    "cantonese": "Sam1 zong6 beng6 ",
+    "characters": "心臟病",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Heart failure",
+    "cantonese": "Sam1 zong6 seoi1 kit3",
+    "characters": "心臟衰竭",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "Hypercholesterolemia",
+    "cantonese": "Gou1 daam2 gu3 seon4 hyut3 zing3",
+    "characters": "高胆固醇血症",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "Hypertension (high blood pressure)",
+    "cantonese": "Gou1 hyut3 aat3",
+    "characters": "高血壓",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Myocardial infarction/ heart attack",
+    "cantonese": "Sam1 gei1 gang2 sak1",
+    "characters": "心肌梗塞",
+    "see_more": ""
+  }
+]

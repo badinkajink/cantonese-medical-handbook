@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "english": "What medicines do you take?",
+    "cantonese": "Nei5 sik6 gan2 me1 je5 joek6?",
+    "characters": "你食緊乜嘢藥？",
+    "see_more": "penicillin / pun4 lei4 sai1 lam4 / 盤尼西林"
+  },
+  {
+    "id": "2",
+    "english": "Alternative medical treatment",
+    "cantonese": "Ling6 leoi6 zi6 liu6",
+    "characters": "另類治療",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Chinese medicine",
+    "cantonese": "Zung1 joek6",
+    "characters": "中藥",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "Acupuncture",
+    "cantonese": "Zam1 gau3",
+    "characters": "針灸",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "Cupping therapy",
+    "cantonese": "Bat6 gun3",
+    "characters": "拔罐",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Essential Oils",
+    "cantonese": "Zing1 jau1",
+    "characters": "精油",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "Herbal medicine",
+    "cantonese": "Cou2 joek6",
+    "characters": "草藥",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "Herbal Tea",
+    "cantonese": "cou2 bun2 caa4",
+    "characters": "草本茶",
+    "see_more": "*"
+  },
+  {
+    "id": "9",
+    "english": "Supplements <br>Vitamins",
+    "cantonese": "Bou2 gin3 ban2 <br> Wai4 taa1 min6",
+    "characters": "保健品 <br>\n維他命",
+    "see_more": ""
+  },
+  {
+    "id": "10",
+    "english": "Penicillin",
+    "cantonese": "pun4 lei4 sai1 \nlam4",
+    "characters": "盤尼西林",
+    "see_more": ""
+  }
+]

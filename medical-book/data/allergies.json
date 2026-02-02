@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "english": "Do you have any allergies to medication, food, or other things? ",
+    "cantonese": "Nei5 deoi3  joek6 mat6, sik6 mat6, tung4 kei4 taa1 je5 jau5 mou5  gwo3 man5?",
+    "characters": "你對藥物，食物，同其他嘢有冇過敏？",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "Do you have any reactions?",
+    "cantonese": "Nei5 jau5 me1 faan2 jing3?",
+    "characters": "你有咩反應？",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Do you have any rashes?",
+    "cantonese": "Jau5 mou5 ceot1 can2?",
+    "characters": "有冇出疹？",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "Do you have trouble breathing?",
+    "cantonese": "Jau5 mou5 fu1 kap1 kwan3 naan4?",
+    "characters": "有冇呼吸困難？",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "What antibiotics have you taken?",
+    "cantonese": "Nei5 sik6 gwo3 mat1 je5 kong3 sang1 sou3?",
+    "characters": "你食過乜嘢抗生素？",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Are you taking any allergy medications?",
+    "cantonese": "Nei5 jau5 mou5 sik6 gan2 kong3 man5 ge3 joek6 mat6？",
+    "characters": "你有冇食緊抗敏嘅藥物？",
+    "see_more": ""
+  }
+]

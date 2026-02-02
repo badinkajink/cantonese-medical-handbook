@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "english": "Artery",
+    "cantonese": "Dung6 mak6",
+    "characters": "動脈",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "Blood vessel",
+    "cantonese": "Hyut3 gwun2",
+    "characters": "血管",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Heart",
+    "cantonese": "Sam1 zong6",
+    "characters": "心臟",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "Palpitations",
+    "cantonese": "Sam1 gwai3 ",
+    "characters": "心悸",
+    "see_more": ""
+  },
+  {
+    "id": "5",
+    "english": "Irregular heartbeat",
+    "cantonese": "Sam1 tiu3 m4 kwai1 leot6",
+    "characters": "心跳唔规律",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Do you have any pain or pressure across the chest?",
+    "cantonese": "Nei5 hung1 bou6 jau5 si4 wui3 m4 wui3 tung3 waak6 ze2 gok3 dak1 jau5 ngaat3 lik6?",
+    "characters": "你胸部有時會唔會痛或者覺得有壓力？",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "Do you have shortness of breath? <br>\nOn exertion <br>\nWhile resting",
+    "cantonese": "jau5 mou5 gok3 dak1 hei3 cuk1? <br>\nJung6 lik6 ge3 si4 hau6 <br>\nJau1 sik1 ge3 si4 hau6",
+    "characters": "有冇覺得氣促? <br>\n用力嘅時候? <br>\n休息嘅時候?",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "How many blocks can you walk before becoming short of breath?",
+    "cantonese": "Nei5 haang4 gwo3 gei2 tiu4 gaai1 wui5 hoi1 ci2 hei3 cuk1?",
+    "characters": "你行過幾條街會開始氣促？",
+    "see_more": ""
+  },
+  {
+    "id": "9",
+    "english": "Do you get shortness of breath while lying flat in bed?",
+    "cantonese": "Fan3 dai1 jau5 mou5 gok3 dak1 hei3 cuk1?",
+    "characters": "瞓低有冇覺得氣促？",
+    "see_more": ""
+  },
+  {
+    "id": "10",
+    "english": "How many pillows do you sleep on?",
+    "cantonese": "Nei5 fan3 gei2 go3 zam2 tau4?",
+    "characters": "你瞓幾個��頭？",
+    "see_more": ""
+  },
+  {
+    "id": "11",
+    "english": "Do you sit up at night because of shortness of breath?",
+    "cantonese": "Jau5 mou5 bun3 je6 seng2 zo2, hei3 cuk1, jiu3 co5 hei2 san1?",
+    "characters": "有冇半夜醒咗氣促，要坐起身？",
+    "see_more": ""
+  },
+  {
+    "id": "12",
+    "english": "Do your ankles ever swell up? Equally or is one more swollen than the other?",
+    "cantonese": "Loeng5 zek3 goek3 ngaan5 jau5 mou5 zung2 gwo3? Jat1 joeng6 zung2, ding6 hai6 jat1 go3 zung2 di1?",
+    "characters": "兩隻腳眼有冇腫過？一樣腫，定係一個腫啲？",
+    "see_more": ""
+  },
+  {
+    "id": "13",
+    "english": "Have you ever had an EKG?",
+    "cantonese": "Jau5 mou5 zou6 gwo3 sam1 din6 tou4?",
+    "characters": "有冇做過心電圖？",
+    "see_more": ""
+  }
+]

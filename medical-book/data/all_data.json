@@ -1,0 +1,1675 @@
+{
+  "introductions": [
+    {
+      "id": "1",
+      "english": "Good morning",
+      "cantonese": "zou2 san4",
+      "characters": "早晨",
+      "see_more": "hello world"
+    },
+    {
+      "id": "2",
+      "english": "Hello/ how are you?",
+      "cantonese": "nei5 hou2 maa1?",
+      "characters": "你好嗎",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Sir <br> Madam <br> Miss",
+      "cantonese": "sin1 saang1 <br> \ntaai3 taai2 <br>\nsiu2 ze2",
+      "characters": "先生 <br>\n太太 <br>\n小姐",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "I am doctor __",
+      "cantonese": "ngo5 hai6 __ ji1 sang1",
+      "characters": "我係___醫生",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "I am going to ask you some pertinent questions",
+      "cantonese": "ngo5 ji4 gaa1 man6 nei5 jat1 di1 zung6 jiu3 ge3 man6 tai4",
+      "characters": "我而家問你一啲重要嘅問題",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Name?",
+      "cantonese": "meng2?",
+      "characters": "名？",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "How old are you?",
+      "cantonese": "nei5 gei2 seoi3",
+      "characters": "你幾歲？",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "What is your date of birth?",
+      "cantonese": "ceot1 sang1 jat6 kei4",
+      "characters": "出生日期？",
+      "see_more": ""
+    },
+    {
+      "id": "9",
+      "english": "What insurance do you have?",
+      "cantonese": "nei5 jau5 me1 bou2 him2 aa3?",
+      "characters": "你有咩保險？",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "Please/ thank you (service)",
+      "cantonese": "m4 goi1",
+      "characters": "唔該",
+      "see_more": ""
+    },
+    {
+      "id": "11",
+      "english": "Thank you",
+      "cantonese": "do1 ze6",
+      "characters": "多謝",
+      "see_more": ""
+    },
+    {
+      "id": "12",
+      "english": "You’re welcome",
+      "cantonese": "m4 sai2 m4 goi1 \n",
+      "characters": "唔使唔該\n",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "You’re welcome",
+      "cantonese": "m4 sai2 haak3 hei3",
+      "characters": "唔使客氣",
+      "see_more": ""
+    },
+    {
+      "id": "14",
+      "english": "I don’t know",
+      "cantonese": "ngo5 m4 zi1 dou3",
+      "characters": "我唔知道",
+      "see_more": ""
+    },
+    {
+      "id": "15",
+      "english": "Please sign here to grant permission",
+      "cantonese": "nei5 tung4 ji3 zau6 hai2 ni1 dou6 cim1 meng2",
+      "characters": "你同意就喺呢度簽名",
+      "see_more": ""
+    },
+    {
+      "id": "16",
+      "english": "\nDay\n",
+      "cantonese": "\njat6\n",
+      "characters": "\n日\n",
+      "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/17.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Today <br>\nTomorrow <br>\nYesterday</div><div class=\"col-4 my-auto\">gam1 jat6 <br>\nting1 jat6  <br>\nkam4 jat6</div><div class=\"col-3 my-auto\">今日 <br>\n聽日 <br>\n琴日</div><div class=\"col-1\"></div></div>"
+    },
+    {
+      "id": "17",
+      "english": "Today <br>\nTomorrow <br>\nYesterday",
+      "cantonese": "gam1 jat6 <br>\nting1 jat6  <br>\nkam4 jat6",
+      "characters": "今日 <br>\n聽日 <br>\n琴日",
+      "see_more": ""
+    },
+    {
+      "id": "18",
+      "english": "Week",
+      "cantonese": "sing1 kei4 <br>\nlai5 baai3",
+      "characters": "星期 <br>\n禮拜",
+      "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/19.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Last week <br>\nThis week <br>\nNext week</div><div class=\"col-4 my-auto\">soeng6 go3 sing1 kei4 <br>\ngam1 go3 sing1 kei4 <br> \nhaa6 go3 sing1 kei4</div><div class=\"col-3 my-auto\">上個星期 <br>\n今個星期 <br>\n下個星期</div><div class=\"col-1\"></div></div>"
+    },
+    {
+      "id": "19",
+      "english": "Last week <br>\nThis week <br>\nNext week",
+      "cantonese": "soeng6 go3 sing1 kei4 <br>\ngam1 go3 sing1 kei4 <br> \nhaa6 go3 sing1 kei4",
+      "characters": "上個星期 <br>\n今個星期 <br>\n下個星期",
+      "see_more": ""
+    },
+    {
+      "id": "20",
+      "english": "Month ",
+      "cantonese": "jyut6",
+      "characters": "月",
+      "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/19.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Last month <br>\nThis month <br>\nNext month</div><div class=\"col-4 my-auto\">soeng6 go3 jyut6 <br>\ngam1 go3 jyut6 <br> \nhaa6 go3 jyut6</div><div class=\"col-3 my-auto\">上個月 <br>\n今個月 <br>\n下個月</div><div class=\"col-1\"></div></div>"
+    },
+    {
+      "id": "21",
+      "english": "Last month <br>\nThis month <br>\nNext month",
+      "cantonese": "soeng6 go3 jyut6 <br>\ngam1 go3 jyut6 <br>\nhaa6 go3 jyut6",
+      "characters": "上個月<br>\n今個月<br>\n下個月",
+      "see_more": ""
+    },
+    {
+      "id": "22",
+      "english": "Year",
+      "cantonese": "nin4",
+      "characters": "年",
+      "see_more": "<div class=\"row p-2\"><div class=\"col-1 my-auto\"><input class=\"btn btn-primary\" type=\"button\" value=\"Play\" onclick=\"(function(){var music = new Audio('./introductions_audio/19.mp3'); music.play();})();\"></div><div class=\"col-3 my-auto\">Last year <br>\nThis year <br>\nNext year</div><div class=\"col-4 my-auto\">soeng6 go3 nin2 <br>\ngam1 go3 nin2<br> \nhaa6 go3 nin2</div><div class=\"col-3 my-auto\">上年 <br>\n今年 <br>\n下年</div><div class=\"col-1\"></div></div>"
+    },
+    {
+      "id": "23",
+      "english": "Last year<br>\nThis year<br>\nNext year",
+      "cantonese": "soeng6 nin2<br>\ngam1 nin2<br>\nhaa6 nin2",
+      "characters": "上年<br>\n今年<br>\n下年",
+      "see_more": ""
+    }
+  ],
+  "complaints": [
+    {
+      "id": "1",
+      "english": "What are your problems and symptoms?",
+      "cantonese": "Nei5 jau5 mat1 je5 Man6 tai4 <br>\nzing3 zong6",
+      "characters": "你有乜嘢問題 <br> 症狀?",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "When did it start?",
+      "cantonese": "Gei2 si4 hoi1 ci2",
+      "characters": "幾時開始?",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "For how long?",
+      "cantonese": "Gei2 noi6",
+      "characters": "幾耐?",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Do you feel pain anywhere?",
+      "cantonese": "Nei5 jau5 mou5 jam6 ho4 dei6\nfong1 gok3 dak1 tung3?",
+      "characters": "你有冇任何地方覺得疼?",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "Where does it hurt?",
+      "cantonese": "Bin1 dou6 tung3?",
+      "characters": "邊度疼?",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Where does it hurt? <br>\n Continuous or\nIntermittent?",
+      "cantonese": "Tung3 hai2 bin1 dou6? <br>\nCi4 zuk6 <br>\nDyun6 dyun6 zuk6 zuk6",
+      "characters": "痛喺邊度？ <br>\n持續定係斷斷續續？",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Sharp pain <br>\nBurning pain <br>\nDull pain <br>\nThrobbing pain ",
+      "cantonese": "Zam1 ci3 tung3 <br>\nCoek3 jit6 tung3 <br>\nJam1 jam1 tung3 <br>\nTiu3 dung6 tung3 <br>",
+      "characters": "針刺痛? <br>\n焯熱痛? <br>\n陰陰痛？<br>跳動痛？\n",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "What makes your pain <br> Better? <br>\nWorse?",
+      "cantonese": "Jau5 mat1 je3 ling6 nei5 ge3 tung3 <br>\nHou2 di1 <br>\nWaai6 di1",
+      "characters": "有乜嘢令你嘅痛  <br>\n好啲? <br>\n壞啲?",
+      "see_more": "How to change"
+    },
+    {
+      "id": "9",
+      "english": "Does the pain go anywhere else? <br>\nWhere?",
+      "cantonese": "Tung3 wui2 m4 wui2 heoi3 dou3 kei4 taa1 dei6 fong1? <br>\nBin1 dou6?",
+      "characters": "痛會唔會去到其他地方？<br>\n邊度？",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "Have you had any pain in __?",
+      "cantonese": "Nei5 __ jau5 mou5 tung3 gwo3",
+      "characters": "你___有冇痛過？",
+      "see_more": "todo: add body parts"
+    },
+    {
+      "id": "11",
+      "english": "Have you had this before?",
+      "cantonese": "Nei5 ji5 cin4 jau5 mou5 ni1 di1 cing5 fong3?",
+      "characters": "你以前有冇呢啲情況？",
+      "see_more": ""
+    },
+    {
+      "id": "12",
+      "english": "How many times?<br>\nWhen?",
+      "cantonese": "Gei2 do1 ci3 <br>Gei2 si4",
+      "characters": "幾多次？<br>幾時？",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "On a scale from 1 to 10, what is your level of pain?",
+      "cantonese": "Jat1 zi6 sap6: nei5 tung3 ge3 cing4 dou6 hai6 mat1?",
+      "characters": "一至十：你痛嘅程度係乜？",
+      "see_more": ""
+    },
+    {
+      "id": "14",
+      "english": "Chills",
+      "cantonese": "Faat3 laang5",
+      "characters": "發冷",
+      "see_more": ""
+    },
+    {
+      "id": "15",
+      "english": "Fever",
+      "cantonese": "Faat3 siu1",
+      "characters": "發燒",
+      "see_more": ""
+    },
+    {
+      "id": "16",
+      "english": "Headache",
+      "cantonese": "Tau4 tung3",
+      "characters": "頭痛",
+      "see_more": ""
+    }
+  ],
+  "medications": [
+    {
+      "id": "1",
+      "english": "What medicines do you take?",
+      "cantonese": "Nei5 sik6 gan2 me1 je5 joek6?",
+      "characters": "你食緊乜嘢藥？",
+      "see_more": "penicillin / pun4 lei4 sai1 lam4 / 盤尼西林"
+    },
+    {
+      "id": "2",
+      "english": "Alternative medical treatment",
+      "cantonese": "Ling6 leoi6 zi6 liu6",
+      "characters": "另類治療",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Chinese medicine",
+      "cantonese": "Zung1 joek6",
+      "characters": "中藥",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Acupuncture",
+      "cantonese": "Zam1 gau3",
+      "characters": "針灸",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "Cupping therapy",
+      "cantonese": "Bat6 gun3",
+      "characters": "拔罐",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Essential Oils",
+      "cantonese": "Zing1 jau1",
+      "characters": "精油",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Herbal medicine",
+      "cantonese": "Cou2 joek6",
+      "characters": "草藥",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "Herbal Tea",
+      "cantonese": "cou2 bun2 caa4",
+      "characters": "草本茶",
+      "see_more": "*"
+    },
+    {
+      "id": "9",
+      "english": "Supplements <br>Vitamins",
+      "cantonese": "Bou2 gin3 ban2 <br> Wai4 taa1 min6",
+      "characters": "保健品 <br>\n維他命",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "Penicillin",
+      "cantonese": "pun4 lei4 sai1 \nlam4",
+      "characters": "盤尼西林",
+      "see_more": ""
+    }
+  ],
+  "allergies": [
+    {
+      "id": "1",
+      "english": "Do you have any allergies to medication, food, or other things? ",
+      "cantonese": "Nei5 deoi3  joek6 mat6, sik6 mat6, tung4 kei4 taa1 je5 jau5 mou5  gwo3 man5?",
+      "characters": "你對藥物，食物，同其他嘢有冇過敏？",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "Do you have any reactions?",
+      "cantonese": "Nei5 jau5 me1 faan2 jing3?",
+      "characters": "你有咩反應？",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Do you have any rashes?",
+      "cantonese": "Jau5 mou5 ceot1 can2?",
+      "characters": "有冇出疹？",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Do you have trouble breathing?",
+      "cantonese": "Jau5 mou5 fu1 kap1 kwan3 naan4?",
+      "characters": "有冇呼吸困難？",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "What antibiotics have you taken?",
+      "cantonese": "Nei5 sik6 gwo3 mat1 je5 kong3 sang1 sou3?",
+      "characters": "你食過乜嘢抗生素？",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Are you taking any allergy medications?",
+      "cantonese": "Nei5 jau5 mou5 sik6 gan2 kong3 man5 ge3 joek6 mat6？",
+      "characters": "你有冇食緊抗敏嘅藥物？",
+      "see_more": ""
+    }
+  ],
+  "history_questions": [
+    {
+      "id": "1",
+      "english": "Is your overall health in good condition?",
+      "cantonese": "Nei5 gin6 hong1 hou2 m4 hou2?",
+      "characters": "你健康好唔好？",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "Have you had any illnesses as an adult?\nWhat illness?",
+      "cantonese": "Nei5 sing4 nin4 zi1 hau6, jau5 mou5 beng6 gwo3?\nMat1 je5 beng6?",
+      "characters": "你成年之後，有冇病過？\n乜嘢病？",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Do you have a family doctor?",
+      "cantonese": "Nei5 jau5 mou5 gaa1 ting4 ji1 sang1?",
+      "characters": "你有冇家庭醫生？",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "What is their __ ? <br>\nName <br> Address <br>\nTelephone number ",
+      "cantonese": "Keoi5 ge3 __ hai6 mat1 je5? <br>\nMeng4 <br>Dei6 zi2 <br>\nDin6 waa2 hou6 maa5",
+      "characters": "佢嘅___係乜嘢？<br>\n名 <br>\n地址 <br>\n電話號碼",
+      "see_more": "**name"
+    },
+    {
+      "id": "5",
+      "english": "Have you been hospitalized before?",
+      "cantonese": "Nei5 jau5 mou5 zyu6 gwo3 ji1 jyun2?",
+      "characters": "你有冇住過醫院？",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Which hospital?",
+      "cantonese": "Bin1 jat1 gaan1 ji1 jyun2?",
+      "characters": "邊一間醫院？",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Have you ever had any surgeries?",
+      "cantonese": "Nei5 jau5 mou5 zou6 gwo3 sau2 seot6?",
+      "characters": "你有冇做過手術？",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "Have you ever had a serious accident?",
+      "cantonese": "Nei5 jau5 mou5 faat1 sang1 gwo3 jim4 zung6 ge3 ji3 ngoi6?",
+      "characters": "你有冇發生過嚴重嘅意外？",
+      "see_more": ""
+    },
+    {
+      "id": "9",
+      "english": "Were you unconscious?",
+      "cantonese": "Nei5 jau5 mou5 bat1 sing2 jan4 si6?",
+      "characters": "你有冇不省人事？",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "For how long?",
+      "cantonese": "Gei2 noi6?",
+      "characters": "幾耐？",
+      "see_more": ""
+    },
+    {
+      "id": "11",
+      "english": "Have you had bone fractures?",
+      "cantonese": "Nei5 jau5 mou5 gwat1 zit3?",
+      "characters": "你有冇骨折？",
+      "see_more": ""
+    },
+    {
+      "id": "12",
+      "english": "Were you taken to a hospital? <br>\nWhich one?",
+      "cantonese": "Nei5 jau5 mou5 jap6 ji1 jyun2? <br>\nBin1 jat1 gaan1?",
+      "characters": "你有冇入醫院？ <br>\n邊一間？",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "Have you gotten vaccinated for __?",
+      "cantonese": "Nei5 jau5 mou5 daa2 gwo3 jik6 miu4/ zam1?",
+      "characters": "你有冇打過___疫苗／針？",
+      "see_more": ""
+    },
+    {
+      "id": "14",
+      "english": "Do you have these problems?",
+      "cantonese": "Nei5 jau5 mou5 ni1 di1 mou4 beng6/ zing3*1 zong4?",
+      "characters": "你有冇呢啲毛病／症狀？",
+      "see_more": ""
+    },
+    {
+      "id": "15",
+      "english": "Do you have  (in this part of your body)?",
+      "cantonese": "Nei5 (ge3 ( [BODY PART])) jau5 mou5 [SYMPTOM]?",
+      "characters": "你嘅___有冇___？",
+      "see_more": ""
+    }
+  ],
+  "family_history": [
+    {
+      "id": "1",
+      "english": "Are your parents alive?",
+      "cantonese": "Nei5 ge3 fu6 mou5 gin6 zoi6 maa3?",
+      "characters": "你嘅父母健在嗎？",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "How old are they?",
+      "cantonese": "Keoi5 dei6 gei2 seoi3 ?",
+      "characters": "佢哋幾歲？",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "What was their age at their time of death? \n",
+      "cantonese": "Keoi5 heoi3 sai3 ge3 si4 hau6 gei2 seoi3? \n",
+      "characters": "佢去世嘅時候幾歲？\n",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "What was the cause of death?",
+      "cantonese": "Keoi5 ge3 sei4 jan1 hai6 me1?",
+      "characters": "佢嘅死因係咩?",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "Do you have any siblings?",
+      "cantonese": "Nei5 jau5 mou5 hing1 dai6 zi2 mui6?",
+      "characters": "你有冇兄弟姊妹？",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "How many?",
+      "cantonese": "Jau5 gei2 do1 gwo3?",
+      "characters": "有幾多個？",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Are they in good health?",
+      "cantonese": "Keoi5 dei6 ge3 gin6 hong1 hou2 m4 hou2?",
+      "characters": "佢哋嘅健康好唔好？",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "Have any of your family members ever had __?",
+      "cantonese": "Nei5 gaa1 jan4 jau5 mou5 dak1 gwo3 [DISEASE/SYMPTOMS] ?",
+      "characters": "你家人有冇得過___？",
+      "see_more": ""
+    },
+    {
+      "id": "9",
+      "english": "Has there been any tuberculosis among your immediate family members?",
+      "cantonese": "Nei5 ge3 zik6 hai6 can1 suk6 jau5 mou5 dak1 gwo3 fai3 git3 hat6?",
+      "characters": "你嘅直系親屬有冇得過肺結核？",
+      "see_more": ""
+    }
+  ],
+  "prior_illnesses": [
+    {
+      "id": "1",
+      "english": "Chickenpox",
+      "cantonese": "Seoi2 dau2",
+      "characters": "水痘",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "Cholera",
+      "cantonese": "Fok3 lyun6",
+      "characters": "霍亂",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Diphtheria",
+      "cantonese": "Baak6 hau4",
+      "characters": "白喉",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Hepatitis B",
+      "cantonese": "jyut6 gon1 / bi1 jing4 gon1 jim4",
+      "characters": "乙肝／B 型肝炎",
+      "see_more": "*"
+    },
+    {
+      "id": "5",
+      "english": "Malaria",
+      "cantonese": "Joek6 zat6",
+      "characters": "瘧疾",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Measles",
+      "cantonese": "Maa4 can2",
+      "characters": "痲疹",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Mumps",
+      "cantonese": "Soi1 sin3 jim4",
+      "characters": "腮腺炎",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "Pertussis",
+      "cantonese": "Baak3 jat6 kat1",
+      "characters": "百日咳",
+      "see_more": "*"
+    },
+    {
+      "id": "9",
+      "english": "Poliomyelitis",
+      "cantonese": "zek3 seoi5 fui1 zat1 jim4\nsiu2 ji4 maa4 bei3",
+      "characters": "脊髓灰質炎\n小兒麻痺",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "Rheumatic fever",
+      "cantonese": "Fung1 sap1 sing3 jit6",
+      "characters": "風濕性熱",
+      "see_more": ""
+    },
+    {
+      "id": "11",
+      "english": "Rubella",
+      "cantonese": "Fung1 can2",
+      "characters": "風疹",
+      "see_more": "*"
+    },
+    {
+      "id": "12",
+      "english": "Smallpox",
+      "cantonese": "Tin1 faa1",
+      "characters": "天花",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "Tetanus",
+      "cantonese": "Po3 soeng1 fung1",
+      "characters": "破傷風",
+      "see_more": ""
+    },
+    {
+      "id": "14",
+      "english": "Typhoid fever",
+      "cantonese": "Soeng1 hon4",
+      "characters": "傷寒",
+      "see_more": ""
+    },
+    {
+      "id": "15",
+      "english": "Typhus",
+      "cantonese": "Baan1 can2 soeng1 hon4",
+      "characters": "斑疹傷寒",
+      "see_more": ""
+    },
+    {
+      "id": "16",
+      "english": "Yellow Fever",
+      "cantonese": "Wong4 jit6 beng6",
+      "characters": "黃熱病",
+      "see_more": ""
+    },
+    {
+      "id": "17",
+      "english": "Anemia",
+      "cantonese": "Pan4 hyut5",
+      "characters": "貧血",
+      "see_more": ""
+    },
+    {
+      "id": "18",
+      "english": "Sickle cell disease",
+      "cantonese": "Lin4 zong6 sai3 \nbaau1 beng6",
+      "characters": "連狀細胞病",
+      "see_more": ""
+    },
+    {
+      "id": "19",
+      "english": "AIDS",
+      "cantonese": "Ngaai6 zi1 beng6/\noi3 zi1 beng6",
+      "characters": "艾滋病/愛滋病",
+      "see_more": ""
+    },
+    {
+      "id": "20",
+      "english": "Kidney stone",
+      "cantonese": "San6 git3 sek6",
+      "characters": "腎結石",
+      "see_more": ""
+    },
+    {
+      "id": "21",
+      "english": "COVID-19",
+      "cantonese": "San1 gun1 fai3 jim4",
+      "characters": "新冠肺炎",
+      "see_more": ""
+    },
+    {
+      "id": "22",
+      "english": "Infection",
+      "cantonese": "Faat3 jim4",
+      "characters": "發炎",
+      "see_more": ""
+    },
+    {
+      "id": "23",
+      "english": "Cancer",
+      "cantonese": "Ngaam4 zing3",
+      "characters": "癌症",
+      "see_more": ""
+    }
+  ],
+  "cardiology": [
+    {
+      "id": "1",
+      "english": "Artery",
+      "cantonese": "Dung6 mak6",
+      "characters": "動脈",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "Blood vessel",
+      "cantonese": "Hyut3 gwun2",
+      "characters": "血管",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Heart",
+      "cantonese": "Sam1 zong6",
+      "characters": "心臟",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Palpitations",
+      "cantonese": "Sam1 gwai3 ",
+      "characters": "心悸",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "Irregular heartbeat",
+      "cantonese": "Sam1 tiu3 m4 kwai1 leot6",
+      "characters": "心跳唔规律",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Do you have any pain or pressure across the chest?",
+      "cantonese": "Nei5 hung1 bou6 jau5 si4 wui3 m4 wui3 tung3 waak6 ze2 gok3 dak1 jau5 ngaat3 lik6?",
+      "characters": "你胸部有時會唔會痛或者覺得有壓力？",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Do you have shortness of breath? <br>\nOn exertion <br>\nWhile resting",
+      "cantonese": "jau5 mou5 gok3 dak1 hei3 cuk1? <br>\nJung6 lik6 ge3 si4 hau6 <br>\nJau1 sik1 ge3 si4 hau6",
+      "characters": "有冇覺得氣促? <br>\n用力嘅時候? <br>\n休息嘅時候?",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "How many blocks can you walk before becoming short of breath?",
+      "cantonese": "Nei5 haang4 gwo3 gei2 tiu4 gaai1 wui5 hoi1 ci2 hei3 cuk1?",
+      "characters": "你行過幾條街會開始氣促？",
+      "see_more": ""
+    },
+    {
+      "id": "9",
+      "english": "Do you get shortness of breath while lying flat in bed?",
+      "cantonese": "Fan3 dai1 jau5 mou5 gok3 dak1 hei3 cuk1?",
+      "characters": "瞓低有冇覺得氣促？",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "How many pillows do you sleep on?",
+      "cantonese": "Nei5 fan3 gei2 go3 zam2 tau4?",
+      "characters": "你瞓幾個��頭？",
+      "see_more": ""
+    },
+    {
+      "id": "11",
+      "english": "Do you sit up at night because of shortness of breath?",
+      "cantonese": "Jau5 mou5 bun3 je6 seng2 zo2, hei3 cuk1, jiu3 co5 hei2 san1?",
+      "characters": "有冇半夜醒咗氣促，要坐起身？",
+      "see_more": ""
+    },
+    {
+      "id": "12",
+      "english": "Do your ankles ever swell up? Equally or is one more swollen than the other?",
+      "cantonese": "Loeng5 zek3 goek3 ngaan5 jau5 mou5 zung2 gwo3? Jat1 joeng6 zung2, ding6 hai6 jat1 go3 zung2 di1?",
+      "characters": "兩隻腳眼有冇腫過？一樣腫，定係一個腫啲？",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "Have you ever had an EKG?",
+      "cantonese": "Jau5 mou5 zou6 gwo3 sam1 din6 tou4?",
+      "characters": "有冇做過心電圖？",
+      "see_more": ""
+    }
+  ],
+  "cardiovascular_illnesses": [
+    {
+      "id": "1",
+      "english": "Coronary heart disease",
+      "cantonese": "Gun1 sam1 beng6",
+      "characters": "冠心病",
+      "see_more": ""
+    },
+    {
+      "id": "2",
+      "english": "Heart disease",
+      "cantonese": "Sam1 zong6 beng6 ",
+      "characters": "心臟病",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Heart failure",
+      "cantonese": "Sam1 zong6 seoi1 kit3",
+      "characters": "心臟衰竭",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Hypercholesterolemia",
+      "cantonese": "Gou1 daam2 gu3 seon4 hyut3 zing3",
+      "characters": "高胆固醇血症",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "Hypertension (high blood pressure)",
+      "cantonese": "Gou1 hyut3 aat3",
+      "characters": "高血壓",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Myocardial infarction/ heart attack",
+      "cantonese": "Sam1 gei1 gang2 sak1",
+      "characters": "心肌梗塞",
+      "see_more": ""
+    }
+  ],
+  "anatomy": [
+    {
+      "id": "2",
+      "english": "Head",
+      "cantonese": "tau4",
+      "characters": "頭",
+      "see_more": ""
+    },
+    {
+      "id": "3",
+      "english": "Face",
+      "cantonese": "min6",
+      "characters": "面",
+      "see_more": ""
+    },
+    {
+      "id": "4",
+      "english": "Forehead",
+      "cantonese": "ngaak6 tau4",
+      "characters": "額頭",
+      "see_more": ""
+    },
+    {
+      "id": "5",
+      "english": "Eye",
+      "cantonese": "ngaan5 zing1",
+      "characters": "眼睛",
+      "see_more": ""
+    },
+    {
+      "id": "6",
+      "english": "Nose",
+      "cantonese": "bei6 go1",
+      "characters": "鼻哥",
+      "see_more": ""
+    },
+    {
+      "id": "7",
+      "english": "Ear",
+      "cantonese": "ji5 zai2",
+      "characters": "耳仔",
+      "see_more": ""
+    },
+    {
+      "id": "8",
+      "english": "Mouth",
+      "cantonese": "zeoi2 hau2",
+      "characters": "嘴/口",
+      "see_more": ""
+    },
+    {
+      "id": "9",
+      "english": "Lips",
+      "cantonese": "zeoi2 seon4",
+      "characters": "嘴唇",
+      "see_more": ""
+    },
+    {
+      "id": "10",
+      "english": "Throat",
+      "cantonese": "hau4 lung4",
+      "characters": "喉嚨",
+      "see_more": ""
+    },
+    {
+      "id": "11",
+      "english": "Teeth",
+      "cantonese": "ngaa4",
+      "characters": "牙",
+      "see_more": ""
+    },
+    {
+      "id": "12",
+      "english": "Neck",
+      "cantonese": "geng2",
+      "characters": "頸",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "Back",
+      "cantonese": "bui3 zek3",
+      "characters": "背脊",
+      "see_more": ""
+    },
+    {
+      "id": "14",
+      "english": "Shoulder",
+      "cantonese": "bok3 tau4",
+      "characters": "膊頭",
+      "see_more": ""
+    },
+    {
+      "id": "15",
+      "english": "Chest",
+      "cantonese": "hung1",
+      "characters": "胸",
+      "see_more": ""
+    },
+    {
+      "id": "16",
+      "english": "Waist/Lower \nback",
+      "cantonese": "jiu1",
+      "characters": "腰",
+      "see_more": ""
+    },
+    {
+      "id": "17",
+      "english": "Abdomen",
+      "cantonese": "tou5",
+      "characters": "肚",
+      "see_more": ""
+    },
+    {
+      "id": "18",
+      "english": "Arm",
+      "cantonese": "sau2 bei3",
+      "characters": "手臂",
+      "see_more": ""
+    },
+    {
+      "id": "19",
+      "english": "Wrist",
+      "cantonese": "sau2 wun2",
+      "characters": "手腕",
+      "see_more": ""
+    },
+    {
+      "id": "20",
+      "english": "Hand",
+      "cantonese": "sau2",
+      "characters": "手",
+      "see_more": ""
+    },
+    {
+      "id": "21",
+      "english": "Finger",
+      "cantonese": "sau2 zi2",
+      "characters": "手指",
+      "see_more": ""
+    },
+    {
+      "id": "22",
+      "english": "Thigh",
+      "cantonese": "daai6 bei2",
+      "characters": "大髀",
+      "see_more": ""
+    },
+    {
+      "id": "23",
+      "english": "Knee",
+      "cantonese": "sat1 tau4",
+      "characters": "膝頭",
+      "see_more": ""
+    },
+    {
+      "id": "24",
+      "english": "Lower leg",
+      "cantonese": "goek3 gwaa1",
+      "characters": "腳瓜",
+      "see_more": ""
+    },
+    {
+      "id": "25",
+      "english": "Foot",
+      "cantonese": "goek3",
+      "characters": "腳",
+      "see_more": ""
+    },
+    {
+      "id": "26",
+      "english": "Ankle",
+      "cantonese": "goek3 ngaan5",
+      "characters": "腳眼",
+      "see_more": ""
+    },
+    {
+      "id": "27",
+      "english": "Heel",
+      "cantonese": "goek3 zaang1",
+      "characters": "腳㬹",
+      "see_more": ""
+    },
+    {
+      "id": "28",
+      "english": "Toe",
+      "cantonese": "goek3 zi2",
+      "characters": "腳趾",
+      "see_more": ""
+    },
+    {
+      "id": "29",
+      "english": "Brain",
+      "cantonese": "nou5",
+      "characters": "腦",
+      "see_more": ""
+    },
+    {
+      "id": "30",
+      "english": "Heart",
+      "cantonese": "sam1 zong6",
+      "characters": "心臟",
+      "see_more": ""
+    },
+    {
+      "id": "31",
+      "english": "Lung",
+      "cantonese": "fai3",
+      "characters": "肺",
+      "see_more": ""
+    },
+    {
+      "id": "32",
+      "english": "Stomach",
+      "cantonese": "wai6",
+      "characters": "胃",
+      "see_more": ""
+    },
+    {
+      "id": "33",
+      "english": "Intestinal Tract",
+      "cantonese": "coeng4 dou6",
+      "characters": "腸道",
+      "see_more": ""
+    },
+    {
+      "id": "34",
+      "english": "Liver",
+      "cantonese": "gon1",
+      "characters": "肝",
+      "see_more": ""
+    },
+    {
+      "id": "35",
+      "english": "Kidney",
+      "cantonese": "san6",
+      "characters": "腎",
+      "see_more": ""
+    },
+    {
+      "id": "36",
+      "english": "Spleen",
+      "cantonese": "pei4 wai6",
+      "characters": "���胃",
+      "see_more": ""
+    },
+    {
+      "id": "37",
+      "english": "Bladder",
+      "cantonese": "pong4 gwong1",
+      "characters": "膀胱",
+      "see_more": ""
+    }
+  ],
+  "emergency": [
+    {
+      "id": "2",
+      "english": "ambulance",
+      "cantonese": "gau3 wu6 ce1/\nbaak6 ce1",
+      "characters": "救護車/白車",
+      "see_more": "救护车"
+    },
+    {
+      "id": "3",
+      "english": "Do you need an \nambulance?",
+      "cantonese": "seoi1 m seoi1 jiu3 \ngiu3 gau3 wu6 ce1/\nbaak6 ce1?",
+      "characters": "需唔需要叫救護車/白車？",
+      "see_more": "需不需要叫救护车？"
+    },
+    {
+      "id": "4",
+      "english": "Can you hear me?",
+      "cantonese": "nei5 teng1 m4 teng1\ndou2 ngo5 gong2\nje5?",
+      "characters": "你聽唔聽到我講嘢？",
+      "see_more": "你能听到我说话吗？"
+    },
+    {
+      "id": "5",
+      "english": "Are you taking any\n medications?",
+      "cantonese": "nei5 ji4 gaa1 jau5 \nmou5 fuk6 jung6\njam6 ho4 joek6 \nmat6?",
+      "characters": "你而家有冇服用任何藥物？",
+      "see_more": "你现在有没有服用\n任何药物？"
+    },
+    {
+      "id": "6",
+      "english": "Are you allergic to\nany medications?",
+      "cantonese": "nei5 jau5 mou5\ndeoi3 jam6 ho4 \njoek6 mat6 gwo3\nman5",
+      "characters": "你有冇對任何藥物過敏？",
+      "see_more": "你有没有对任何药物\n过敏?"
+    },
+    {
+      "id": "7",
+      "english": "Do you have any\nchronic conditions?",
+      "cantonese": "nei5 jau5 mou5\n jam6 ho4 maan6\nsing3 zat6 beng6",
+      "characters": "你有冇任何慢性疾病？",
+      "see_more": "你有没有任何慢性\n疾病？"
+    },
+    {
+      "id": "8",
+      "english": "emergency room",
+      "cantonese": "gap1 zing3 sat1",
+      "characters": "急症室",
+      "see_more": "急症室"
+    },
+    {
+      "id": "9",
+      "english": "CPR",
+      "cantonese": "sam1 fai3 fuk6 sou1",
+      "characters": "心肺復甦",
+      "see_more": "心肺复苏"
+    },
+    {
+      "id": "10",
+      "english": "epinephrine",
+      "cantonese": "san6 soeng6 sin3\n sou3",
+      "characters": "腎上腺素",
+      "see_more": "肾上腺素"
+    },
+    {
+      "id": "11",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "12",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "13",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "14",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "15",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "16",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "17",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "18",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "19",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    },
+    {
+      "id": "20",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    }
+  ],
+  "dermatology": [
+    {
+      "id": "1",
+      "english": "Hair",
+      "cantonese": "Tau4 faat3",
+      "characters": "頭髮",
+      "see_more": "头发"
+    },
+    {
+      "id": "2",
+      "english": "Skin",
+      "cantonese": "Pei4 fu1",
+      "characters": "皮膚",
+      "see_more": "皮肤"
+    },
+    {
+      "id": "3",
+      "english": "Nails",
+      "cantonese": "Zi2 gaap3",
+      "characters": "指甲",
+      "see_more": "指甲"
+    },
+    {
+      "id": "4",
+      "english": "Do you have dry skin?",
+      "cantonese": "Nei5 jau5 mou5 gon1 sing3 pei4 fu1?",
+      "characters": "你有冇乾性皮膚？",
+      "see_more": "你有干性皮肤吗？"
+    },
+    {
+      "id": "5",
+      "english": "Do you have oily skin?",
+      "cantonese": "Nei5 jau5 mou5 jau5 sing3 pei4 fu1?",
+      "characters": "你有冇油性皮膚？",
+      "see_more": "你有油性皮肤吗？"
+    },
+    {
+      "id": "6",
+      "english": "Do you easily bruise or bleed?",
+      "cantonese": "Nei5 wui3 m4 wui3 jung4 ji6 jyu2 waak6 ze2 lau4 hyut3?",
+      "characters": "你會唔會容易瘀或者流血？",
+      "see_more": "你身体容易青肿淤血，或者流血吗？"
+    },
+    {
+      "id": "7",
+      "english": "Do you have acne?",
+      "cantonese": "Nei5 jau5 mou5 co4 cong4/ fan2 ci3?",
+      "characters": "你有冇痤瘡/粉刺？",
+      "see_more": "你有痤疮/粉刺/痘痘吗？"
+    },
+    {
+      "id": "8",
+      "english": "Have you had laser surgery before?",
+      "cantonese": "Nei5 jau5 mou5 zou6 gwo3 gik1 gwong1 sau2 seot6?",
+      "characters": "你有冇做過激光手術？",
+      "see_more": "你做过激光手术吗？"
+    },
+    {
+      "id": "9",
+      "english": "Do you tan often?\nDo you wear sunscreen?",
+      "cantonese": "Nei5 hai6 m4 hai6 si4 si4 saai3 taai3 joeng4?\nNei5 caa4 m4 caa4 fong4 saai3?",
+      "characters": "你係唔係時時曬太陽？\n你搽唔搽防曬？",
+      "see_more": "你会容易晒伤/晒黑吗？会摸防晒霜吗？"
+    },
+    {
+      "id": "10",
+      "english": "Any color changes/ discoloration on your skin?",
+      "cantonese": "Pei4 fu1 jau5 mou5 bin3 sik1?",
+      "characters": "皮膚有冇變色？",
+      "see_more": "你的皮肤会不会有颜色变化？"
+    },
+    {
+      "id": "11",
+      "english": "Any rashes?",
+      "cantonese": "Jau5 mou5 can2?",
+      "characters": "有冇疹？",
+      "see_more": "有任何疹子吗？"
+    },
+    {
+      "id": "12",
+      "english": "Is your skin itchy?",
+      "cantonese": "Pei4 fu1 han4 m4 han4?",
+      "characters": "皮膚痕唔痕？",
+      "see_more": "皮肤会不会发痒？"
+    },
+    {
+      "id": "13",
+      "english": "Eczema",
+      "cantonese": "Sap1 can2",
+      "characters": "濕疹",
+      "see_more": "湿疹"
+    },
+    {
+      "id": "14",
+      "english": "Melanoma",
+      "cantonese": "Hak1 sou3 lau4",
+      "characters": "黑素瘤",
+      "see_more": "黑素瘤"
+    },
+    {
+      "id": "15",
+      "english": "Psoriasis",
+      "cantonese": "Gon1 sin2",
+      "characters": "乾癬",
+      "see_more": "牛皮癣；银屑癣"
+    },
+    {
+      "id": "Common conditions (beng6)",
+      "english": "",
+      "cantonese": "",
+      "characters": "",
+      "see_more": ""
+    }
+  ],
+  "endocrinology": [
+    {
+      "id": "1",
+      "english": "Liver",
+      "cantonese": "Gon1",
+      "characters": "肝",
+      "see_more": "肝"
+    },
+    {
+      "id": "2",
+      "english": "Lymph",
+      "cantonese": "Lam4 baa1 jik6",
+      "characters": "淋巴液",
+      "see_more": "淋巴/淋巴液"
+    },
+    {
+      "id": "3",
+      "english": "Lymph nodes",
+      "cantonese": "Lam4 baa1",
+      "characters": "淋巴",
+      "see_more": "淋巴结"
+    },
+    {
+      "id": "4",
+      "english": "Thyroid",
+      "cantonese": "Gaap3 zong6 sin3",
+      "characters": "甲狀腺",
+      "see_more": "甲状腺"
+    },
+    {
+      "id": "5",
+      "english": "Do you prefer hotter or colder room temperatures?",
+      "cantonese": "Nei5 bei2 gaau3 zung1 jit3 di1 ding6 hai6 laang5 di1 ge3 sat1 wan1?",
+      "characters": "你比較中意熱\n啲定係冷啲嘅\n室温？",
+      "see_more": "你更喜欢热一点还是凉一点的室内温度？"
+    },
+    {
+      "id": "6",
+      "english": "Do you always feel cold or hot?",
+      "cantonese": "Nei5 wui3 m4 wui3 si4 si4 gam2 gok3 jit6 waak6 ze2 dung3?",
+      "characters": "你會唔會時時\n感覺熱或者\n凍？",
+      "see_more": "你会不会经常感觉冷或者热？"
+    },
+    {
+      "id": "7",
+      "english": "Do you feel thirsty often?",
+      "cantonese": "Nei5 wui3 m4 wui3 si4 si4 hau2 hot3?",
+      "characters": "你會唔會時時\n口渴？",
+      "see_more": "你会不会经常口渴？"
+    },
+    {
+      "id": "8",
+      "english": "Any weight changes?",
+      "cantonese": "Jau5 mou5 tai2 cung5 bin3 faa3?",
+      "characters": "有冇體重變\n化？",
+      "see_more": "有任何体重变化吗？"
+    },
+    {
+      "id": "9",
+      "english": "Do you experience frequent fatigue?",
+      "cantonese": "Nei5 wui3 m4 wui3 si4 si4 pei4 lou4?",
+      "characters": "你會唔會時時\n疲勞？",
+      "see_more": "你会不会经常感到疲劳？"
+    },
+    {
+      "id": "10",
+      "english": "Do you have a loss of appetite?",
+      "cantonese": "Wui3 m4 wui3 sik6 juk6 bat1 zan3/ m4 hoi1 wai6?",
+      "characters": "會唔會食慾不\n振/唔開胃？",
+      "see_more": "你会不会食欲不振？"
+    },
+    {
+      "id": "11",
+      "english": "Diabetes",
+      "cantonese": "Tong4 niu6 beng6",
+      "characters": "糖尿病",
+      "see_more": "糖尿病"
+    },
+    {
+      "id": "12",
+      "english": "Thyroid disease",
+      "cantonese": "Gaap3 zong6 sin3 beng6",
+      "characters": "甲狀腺病",
+      "see_more": "甲狀腺病"
+    }
+  ],
+  "gastroenterology": [
+    {
+      "id": "1",
+      "english": "Abdomen",
+      "cantonese": "Tou5",
+      "characters": "肚",
+      "see_more": "腹部"
+    },
+    {
+      "id": "2",
+      "english": "Appendix",
+      "cantonese": "Laan4 mei5/ maang4 coeng2 *",
+      "characters": "闌尾盲腸",
+      "see_more": "阑尾"
+    },
+    {
+      "id": "3",
+      "english": "Gallbladder",
+      "cantonese": "Daam2",
+      "characters": "膽",
+      "see_more": "胆"
+    },
+    {
+      "id": "4",
+      "english": "Large intestine",
+      "cantonese": "Daai6 coeng2",
+      "characters": "大腸",
+      "see_more": "大肠"
+    },
+    {
+      "id": "5",
+      "english": "Liver",
+      "cantonese": "Gon1",
+      "characters": "肝",
+      "see_more": "肝脏"
+    },
+    {
+      "id": "6",
+      "english": "Pancreas",
+      "cantonese": "Ji4 zong6",
+      "characters": "胰臟",
+      "see_more": "胰腺"
+    },
+    {
+      "id": "7",
+      "english": "Small intestine",
+      "cantonese": "Siu2 coeng2",
+      "characters": "小腸",
+      "see_more": "小肠"
+    },
+    {
+      "id": "8",
+      "english": "Spleen",
+      "cantonese": "Pei4 wai6",
+      "characters": "脾胃",
+      "see_more": "脾脏"
+    },
+    {
+      "id": "9",
+      "english": "Stomach",
+      "cantonese": "Wai6",
+      "characters": "胃",
+      "see_more": "胃"
+    },
+    {
+      "id": "10",
+      "english": "Any problems with your appetite? Any changes?",
+      "cantonese": "Nei5 sik6 je5 jau5 mou5 man6 tai4? Jau5 mou5 goi2 bin3?",
+      "characters": "你食嘢有冇問題？有冇改變？",
+      "see_more": "你的食欲怎么样？有没有变化？"
+    },
+    {
+      "id": "11",
+      "english": "Any vomiting?\nWhat color is the vomit? Are you vomiting blood?",
+      "cantonese": "Jau5 mou4 au2?\nAu2 tau4 mat1 me1 ngaan4 sik1? Jau5 mou5 au2 hyut3?",
+      "characters": "有冇嘔？嘔吐物咩顏色？有冇嘔血？",
+      "see_more": "会不会呕吐？呕吐物的颜色是什么？会呕血吗？"
+    },
+    {
+      "id": "12",
+      "english": "Any blood in your stool?\nIs it very dark? Is it bright red?",
+      "cantonese": "Daai6 bin6 jau5 mou5 hyut3?\nHai6 m4 hai6 sam1 sik1? Hai6 m4 hai6 sin1 hung4 sik1?",
+      "characters": "大便有冇血？係唔係深色？係唔係鮮紅色？",
+      "see_more": "大便中有没有血？颜色很深吗？是鲜红色吗？"
+    },
+    {
+      "id": "13",
+      "english": "Abdominal/ Stomach Pain",
+      "cantonese": "tou5/ wai6 tung3",
+      "characters": "肚/胃痛",
+      "see_more": "肚子/胃疼"
+    },
+    {
+      "id": "14",
+      "english": "Black stool",
+      "cantonese": " Haak1 sik1 daai6 bin6",
+      "characters": "黑色大便",
+      "see_more": "黑色大便"
+    },
+    {
+      "id": "15",
+      "english": "Constipation",
+      "cantonese": "Bin6 bei3",
+      "characters": "便秘",
+      "see_more": "便秘"
+    },
+    {
+      "id": "16",
+      "english": "Diarrhea",
+      "cantonese": "Tou5 se3",
+      "characters": "肚瀉",
+      "see_more": "腹泻"
+    },
+    {
+      "id": "17",
+      "english": "Heartburn",
+      "cantonese": "Wai6 coek3 jit6",
+      "characters": "胃灼熱",
+      "see_more": "心痛/胃灼热"
+    },
+    {
+      "id": "18",
+      "english": "Hemorrhoids",
+      "cantonese": "Zi6 cong1",
+      "characters": "痔瘡",
+      "see_more": "痔疮"
+    },
+    {
+      "id": "19",
+      "english": "Jaundice (yellowing of the skin)",
+      "cantonese": "Wong4 daam2",
+      "characters": "黃膽",
+      "see_more": "黄疸"
+    },
+    {
+      "id": "20",
+      "english": "Light colored stool",
+      "cantonese": "Daai6 bin6 cin2 sik1",
+      "characters": "淺色大便",
+      "see_more": "浅色大便"
+    },
+    {
+      "id": "21",
+      "english": "Nausea",
+      "cantonese": "au2 sam1/ soeng2 au2",
+      "characters": "嘔心/想嘔",
+      "see_more": "恶心感"
+    },
+    {
+      "id": "22",
+      "english": "Parasites",
+      "cantonese": "Gei3 sang1 cung3",
+      "characters": "寄生蟲",
+      "see_more": "寄生虫"
+    },
+    {
+      "id": "23",
+      "english": "Acid Reflux",
+      "cantonese": "Faan2 syun1",
+      "characters": "返酸",
+      "see_more": "发酸"
+    },
+    {
+      "id": "24",
+      "english": "Appendicitis",
+      "cantonese": "Laan4 mei5 jim4",
+      "characters": "闌尾炎",
+      "see_more": "阑尾炎"
+    },
+    {
+      "id": "25",
+      "english": "Gallstones",
+      "cantonese": "Daam2 sek6",
+      "characters": "膽石",
+      "see_more": "胆结石"
+    },
+    {
+      "id": "26",
+      "english": "Gallbladder disease",
+      "cantonese": "Daam2 nong4 beng6",
+      "characters": "膽囊病",
+      "see_more": "胆囊病"
+    },
+    {
+      "id": "27",
+      "english": "Gastroenteritis",
+      "cantonese": "Coeng4 wai6 jim4",
+      "characters": "腸胃炎",
+      "see_more": "肠胃炎"
+    },
+    {
+      "id": "28",
+      "english": "Hepatitis (A/B/C)",
+      "cantonese": "Gon1 jim4",
+      "characters": "肝炎",
+      "see_more": "肝炎"
+    },
+    {
+      "id": "29",
+      "english": "Inflammatory Bowel Disease",
+      "cantonese": "Jim4 sing3 coeng4 dou6 zat6 beng6",
+      "characters": "炎性腸道疾病",
+      "see_more": "炎症性肠病"
+    },
+    {
+      "id": "30",
+      "english": "Pancreatitis",
+      "cantonese": "Ji4 sin3 jim4",
+      "characters": "胰腺炎",
+      "see_more": "胰腺炎"
+    },
+    {
+      "id": "31",
+      "english": "Ulcer",
+      "cantonese": "Kui2 joeng4",
+      "characters": "潰瘍",
+      "see_more": "溃疡"
+    }
+  ]
+}

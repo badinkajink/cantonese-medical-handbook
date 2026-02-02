@@ -1,0 +1,163 @@
+[
+  {
+    "id": "1",
+    "english": "Chickenpox",
+    "cantonese": "Seoi2 dau2",
+    "characters": "水痘",
+    "see_more": ""
+  },
+  {
+    "id": "2",
+    "english": "Cholera",
+    "cantonese": "Fok3 lyun6",
+    "characters": "霍亂",
+    "see_more": ""
+  },
+  {
+    "id": "3",
+    "english": "Diphtheria",
+    "cantonese": "Baak6 hau4",
+    "characters": "白喉",
+    "see_more": ""
+  },
+  {
+    "id": "4",
+    "english": "Hepatitis B",
+    "cantonese": "jyut6 gon1 / bi1 jing4 gon1 jim4",
+    "characters": "乙肝／B 型肝炎",
+    "see_more": "*"
+  },
+  {
+    "id": "5",
+    "english": "Malaria",
+    "cantonese": "Joek6 zat6",
+    "characters": "瘧疾",
+    "see_more": ""
+  },
+  {
+    "id": "6",
+    "english": "Measles",
+    "cantonese": "Maa4 can2",
+    "characters": "痲疹",
+    "see_more": ""
+  },
+  {
+    "id": "7",
+    "english": "Mumps",
+    "cantonese": "Soi1 sin3 jim4",
+    "characters": "腮腺炎",
+    "see_more": ""
+  },
+  {
+    "id": "8",
+    "english": "Pertussis",
+    "cantonese": "Baak3 jat6 kat1",
+    "characters": "百日咳",
+    "see_more": "*"
+  },
+  {
+    "id": "9",
+    "english": "Poliomyelitis",
+    "cantonese": "zek3 seoi5 fui1 zat1 jim4\nsiu2 ji4 maa4 bei3",
+    "characters": "脊髓灰質炎\n小兒麻痺",
+    "see_more": ""
+  },
+  {
+    "id": "10",
+    "english": "Rheumatic fever",
+    "cantonese": "Fung1 sap1 sing3 jit6",
+    "characters": "風濕性熱",
+    "see_more": ""
+  },
+  {
+    "id": "11",
+    "english": "Rubella",
+    "cantonese": "Fung1 can2",
+    "characters": "風疹",
+    "see_more": "*"
+  },
+  {
+    "id": "12",
+    "english": "Smallpox",
+    "cantonese": "Tin1 faa1",
+    "characters": "天花",
+    "see_more": ""
+  },
+  {
+    "id": "13",
+    "english": "Tetanus",
+    "cantonese": "Po3 soeng1 fung1",
+    "characters": "破傷風",
+    "see_more": ""
+  },
+  {
+    "id": "14",
+    "english": "Typhoid fever",
+    "cantonese": "Soeng1 hon4",
+    "characters": "傷寒",
+    "see_more": ""
+  },
+  {
+    "id": "15",
+    "english": "Typhus",
+    "cantonese": "Baan1 can2 soeng1 hon4",
+    "characters": "斑疹傷寒",
+    "see_more": ""
+  },
+  {
+    "id": "16",
+    "english": "Yellow Fever",
+    "cantonese": "Wong4 jit6 beng6",
+    "characters": "黃熱病",
+    "see_more": ""
+  },
+  {
+    "id": "17",
+    "english": "Anemia",
+    "cantonese": "Pan4 hyut5",
+    "characters": "貧血",
+    "see_more": ""
+  },
+  {
+    "id": "18",
+    "english": "Sickle cell disease",
+    "cantonese": "Lin4 zong6 sai3 \nbaau1 beng6",
+    "characters": "連狀細胞病",
+    "see_more": ""
+  },
+  {
+    "id": "19",
+    "english": "AIDS",
+    "cantonese": "Ngaai6 zi1 beng6/\noi3 zi1 beng6",
+    "characters": "艾滋病/愛滋病",
+    "see_more": ""
+  },
+  {
+    "id": "20",
+    "english": "Kidney stone",
+    "cantonese": "San6 git3 sek6",
+    "characters": "腎結石",
+    "see_more": ""
+  },
+  {
+    "id": "21",
+    "english": "COVID-19",
+    "cantonese": "San1 gun1 fai3 jim4",
+    "characters": "新冠肺炎",
+    "see_more": ""
+  },
+  {
+    "id": "22",
+    "english": "Infection",
+    "cantonese": "Faat3 jim4",
+    "characters": "發炎",
+    "see_more": ""
+  },
+  {
+    "id": "23",
+    "english": "Cancer",
+    "cantonese": "Ngaam4 zing3",
+    "characters": "癌症",
+    "see_more": ""
+  }
+]
